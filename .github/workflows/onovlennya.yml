@@ -1,0 +1,36 @@
+# Щотижня забираємо дані з homedome.com.ua і перебудовуємо CSV; у перший тиждень місяця — реліз
+# (з підключеним Zenodo кожен реліз отримує нову версію DOI). Секретів не треба: дані публічні.
+name: Оновлення даних
+
+on:
+  schedule:
+    - cron: '0 7 * * 3'   # середа 07:00 UTC — після щотижневого оновлення індексу на сайті
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  onovyty:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Забрати дані з сайту
+        run: python3 scripts/onovyty.py
+      - name: Закомітити, якщо змінилось
+        run: |
+          git config user.name "homedome-bot"
+          git config user.email "homedome.com.ua@gmail.com"
+          git add data
+          if git diff --cached --quiet; then echo "Без змін"; else git commit -m "data: оновлення $(date -u +%Y-%m-%d)"; git push; fi
+      - name: Щомісячний реліз
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="v$(date -u +%Y.%m)"
+          if [ "$(date -u +%d)" -le 7 ] && ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "Дані за $(date -u +%m.%Y)" --notes "Щомісячний знімок відкритих даних HOMEDOME. Ліцензія CC BY 4.0."
+          fi

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Якщо використовуєте ці дані, будь ласка, послайтеся на них так. / If you use this data, please cite it as below."
+type: dataset
+title: "HOMEDOME Open Energy Data (Ukraine): day-ahead market spread index, distribution tariffs by region, solar generation"
+authors:
+  - name: "HOMEDOME"
+    website: "https://homedome.com.ua"
+  - family-names: "Vozhzhov"
+    given-names: "Yuriy"
+    affiliation: "HOMEDOME"
+license: CC-BY-4.0
+url: "https://homedome.com.ua/statystyka"
+repository-code: "https://github.com/pr0br00/homedome-open-data"
+version: "2026.10"
+date-released: "2026-10-26"
+keywords:
+  - Ukraine
+  - electricity market
+  - day-ahead market
+  - price spread
+  - battery energy storage
+  - distribution tariffs
+  - solar PV generation

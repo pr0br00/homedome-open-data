@@ -1,0 +1,6977 @@
+{
+ "meta": {
+  "name": "Індекс спредів РДН (HOMEDOME)",
+  "description": "Добові спреди цін на ринку «на добу наперед» в Україні, розраховані з погодинних результатів торгів АТ «Оператор ринку». Чистий спред — за вирахуванням тарифів на передачу й розподіл (2903 грн/МВт·год) і втрат циклу (RTE 85%).",
+  "source": "АТ «Оператор ринку», результати торгів РДН, oree.com.ua",
+  "sourceUrl": "https://www.oree.com.ua/index.php/control/results_mo/DAM",
+  "method": {
+   "spread": "max(година) − min(година) за добу",
+   "netSpread": "max × 0.85 − min − 2903",
+   "tariffUahPerMwh": 2903,
+   "rte": 0.85,
+   "lcosRangeUahPerMwh": [
+    1873,
+    2909
+   ]
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "coverage": {
+   "from": "2025-01-01",
+   "to": "2026-10-12",
+   "days": 650
+  }
+ },
+ "summary": {
+  "avgSpread": 9833,
+  "medianSpread": 9236,
+  "maxSpread": 14990,
+  "maxSpreadDate": "2026-04-27",
+  "avgNetSpread": 5211,
+  "profitableDays": 645,
+  "profitableShare": 99,
+  "cheapestPrice": 10.0,
+  "cheapestDate": "2025-09-06"
+ },
+ "seasonal": [
+  {
+   "season": "Зима",
+   "days": 149,
+   "typicalMinHour": 4,
+   "typicalMaxHour": 18,
+   "avgSpread": 7794,
+   "avgMin": 3762,
+   "avgMax": 11556
+  },
+  {
+   "season": "Весна",
+   "days": 184,
+   "typicalMinHour": 13,
+   "typicalMaxHour": 22,
+   "avgSpread": 9861,
+   "avgMin": 1125,
+   "avgMax": 10986
+  },
+  {
+   "season": "Літо",
+   "days": 184,
+   "typicalMinHour": 13,
+   "typicalMaxHour": 22,
+   "avgSpread": 9851,
+   "avgMin": 1002,
+   "avgMax": 10853
+  },
+  {
+   "season": "Осінь",
+   "days": 133,
+   "typicalMinHour": 4,
+   "typicalMaxHour": 21,
+   "avgSpread": 12052,
+   "avgMin": 788,
+   "avgMax": 12841
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-01",
+   "monthName": "Січень",
+   "days": 31,
+   "avgSpread": 6231,
+   "medianSpread": 6272,
+   "maxSpread": 7810,
+   "minSpread": 4320,
+   "avgNetSpread": 2009,
+   "typicalMinHour": 4,
+   "medianMinHour": 4,
+   "medianMaxHour": 18,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-02",
+   "monthName": "Лютий",
+   "days": 28,
+   "avgSpread": 5884,
+   "medianSpread": 6006,
+   "maxSpread": 8302,
+   "minSpread": 4260,
+   "avgNetSpread": 1639,
+   "typicalMinHour": 4,
+   "medianMinHour": 5,
+   "medianMaxHour": 18,
+   "profitableDays": 28,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-03",
+   "monthName": "Березень",
+   "days": 31,
+   "avgSpread": 7224,
+   "medianSpread": 7502,
+   "maxSpread": 8910,
+   "minSpread": 5000,
+   "avgNetSpread": 2985,
+   "typicalMinHour": 13,
+   "medianMinHour": 13,
+   "medianMaxHour": 19,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-04",
+   "monthName": "Квітень",
+   "days": 30,
+   "avgSpread": 7888,
+   "medianSpread": 8200,
+   "maxSpread": 8900,
+   "minSpread": 5962,
+   "avgNetSpread": 3675,
+   "typicalMinHour": 13,
+   "medianMinHour": 13,
+   "medianMaxHour": 21,
+   "profitableDays": 30,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-05",
+   "monthName": "Травень",
+   "days": 31,
+   "avgSpread": 7775,
+   "medianSpread": 8330,
+   "maxSpread": 8957,
+   "minSpread": 4967,
+   "avgNetSpread": 3548,
+   "typicalMinHour": 13,
+   "medianMinHour": 13,
+   "medianMaxHour": 22,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-06",
+   "monthName": "Червень",
+   "days": 30,
+   "avgSpread": 8330,
+   "medianSpread": 8620,
+   "maxSpread": 8932,
+   "minSpread": 5282,
+   "avgNetSpread": 4103,
+   "typicalMinHour": 14,
+   "medianMinHour": 14,
+   "medianMaxHour": 22,
+   "profitableDays": 30,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-07",
+   "monthName": "Липень",
+   "days": 31,
+   "avgSpread": 6831,
+   "medianSpread": 6945,
+   "maxSpread": 8515,
+   "minSpread": 5408,
+   "avgNetSpread": 2622,
+   "typicalMinHour": 13,
+   "medianMinHour": 13,
+   "medianMaxHour": 22,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-08",
+   "monthName": "Серпень",
+   "days": 31,
+   "avgSpread": 11384,
+   "medianSpread": 10901,
+   "maxSpread": 14854,
+   "minSpread": 6420,
+   "avgNetSpread": 6649,
+   "typicalMinHour": 13,
+   "medianMinHour": 13,
+   "medianMaxHour": 22,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-09",
+   "monthName": "Вересень",
+   "days": 30,
+   "avgSpread": 10165,
+   "medianSpread": 9420,
+   "maxSpread": 14940,
+   "minSpread": 7032,
+   "avgNetSpread": 5684,
+   "typicalMinHour": 13,
+   "medianMinHour": 13,
+   "medianMaxHour": 21,
+   "profitableDays": 30,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-10",
+   "monthName": "Жовтень",
+   "days": 31,
+   "avgSpread": 11654,
+   "medianSpread": 12010,
+   "maxSpread": 14943,
+   "minSpread": 4920,
+   "avgNetSpread": 6732,
+   "typicalMinHour": 4,
+   "medianMinHour": 7,
+   "medianMaxHour": 20,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-11",
+   "monthName": "Листопад",
+   "days": 30,
+   "avgSpread": 13273,
+   "medianSpread": 13951,
+   "maxSpread": 14980,
+   "minSpread": 6199,
+   "avgNetSpread": 8228,
+   "typicalMinHour": 4,
+   "medianMinHour": 4,
+   "medianMaxHour": 19,
+   "profitableDays": 30,
+   "profitableShare": 100
+  },
+  {
+   "month": "2025-12",
+   "monthName": "Грудень",
+   "days": 31,
+   "avgSpread": 9248,
+   "medianSpread": 9400,
+   "maxSpread": 14285,
+   "minSpread": 3153,
+   "avgNetSpread": 4521,
+   "typicalMinHour": 4,
+   "medianMinHour": 4,
+   "medianMaxHour": 18,
+   "profitableDays": 30,
+   "profitableShare": 97
+  },
+  {
+   "month": "2026-01",
+   "monthName": "Січень",
+   "days": 31,
+   "avgSpread": 8544,
+   "medianSpread": 9448,
+   "maxSpread": 10800,
+   "minSpread": 5300,
+   "avgNetSpread": 3609,
+   "typicalMinHour": 4,
+   "medianMinHour": 4,
+   "medianMaxHour": 18,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2026-02",
+   "monthName": "Лютий",
+   "days": 28,
+   "avgSpread": 8996,
+   "medianSpread": 9680,
+   "maxSpread": 12445,
+   "minSpread": 0,
+   "avgNetSpread": 3939,
+   "typicalMinHour": 4,
+   "medianMinHour": 5,
+   "medianMaxHour": 13,
+   "profitableDays": 24,
+   "profitableShare": 86
+  },
+  {
+   "month": "2026-03",
+   "monthName": "Березень",
+   "days": 31,
+   "avgSpread": 12377,
+   "medianSpread": 13238,
+   "maxSpread": 14700,
+   "minSpread": 6510,
+   "avgNetSpread": 7352,
+   "typicalMinHour": 13,
+   "medianMinHour": 13,
+   "medianMaxHour": 19,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2026-04",
+   "monthName": "Квітень",
+   "days": 30,
+   "avgSpread": 12190,
+   "medianSpread": 12968,
+   "maxSpread": 14990,
+   "minSpread": 7312,
+   "avgNetSpread": 7354,
+   "typicalMinHour": 14,
+   "medianMinHour": 13,
+   "medianMaxHour": 21,
+   "profitableDays": 30,
+   "profitableShare": 100
+  },
+  {
+   "month": "2026-05",
+   "monthName": "Травень",
+   "days": 31,
+   "avgSpread": 11723,
+   "medianSpread": 11190,
+   "maxSpread": 14990,
+   "minSpread": 8490,
+   "avgNetSpread": 6958,
+   "typicalMinHour": 12,
+   "medianMinHour": 12,
+   "medianMaxHour": 22,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2026-06",
+   "monthName": "Червень",
+   "days": 30,
+   "avgSpread": 12299,
+   "medianSpread": 13193,
+   "maxSpread": 14967,
+   "minSpread": 6511,
+   "avgNetSpread": 7428,
+   "typicalMinHour": 12,
+   "medianMinHour": 12,
+   "medianMaxHour": 22,
+   "profitableDays": 30,
+   "profitableShare": 100
+  },
+  {
+   "month": "2026-07",
+   "monthName": "Липень",
+   "days": 31,
+   "avgSpread": 9427,
+   "medianSpread": 8924,
+   "maxSpread": 13521,
+   "minSpread": 6290,
+   "avgNetSpread": 5009,
+   "typicalMinHour": 15,
+   "medianMinHour": 12,
+   "medianMaxHour": 22,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2026-08",
+   "monthName": "Серпень",
+   "days": 31,
+   "avgSpread": 10866,
+   "medianSpread": 11350,
+   "maxSpread": 14966,
+   "minSpread": 6862,
+   "avgNetSpread": 6139,
+   "typicalMinHour": 11,
+   "medianMinHour": 12,
+   "medianMaxHour": 20,
+   "profitableDays": 31,
+   "profitableShare": 100
+  },
+  {
+   "month": "2026-09",
+   "monthName": "Вересень",
+   "days": 30,
+   "avgSpread": 13415,
+   "medianSpread": 14183,
+   "maxSpread": 14990,
+   "minSpread": 7990,
+   "avgNetSpread": 8461,
+   "typicalMinHour": 12,
+   "medianMinHour": 12,
+   "medianMaxHour": 21,
+   "profitableDays": 30,
+   "profitableShare": 100
+  },
+  {
+   "month": "2026-10",
+   "monthName": "Жовтень",
+   "days": 12,
+   "avgSpread": 11340,
+   "medianSpread": 11490,
+   "maxSpread": 14605,
+   "minSpread": 7990,
+   "avgNetSpread": 6734,
+   "typicalMinHour": 11,
+   "medianMinHour": 12,
+   "medianMaxHour": 20,
+   "profitableDays": 12,
+   "profitableShare": 100
+  }
+ ],
+ "minHourDistribution": [
+  {
+   "hour": 1,
+   "days": 12
+  },
+  {
+   "hour": 2,
+   "days": 4
+  },
+  {
+   "hour": 3,
+   "days": 27
+  },
+  {
+   "hour": 4,
+   "days": 106
+  },
+  {
+   "hour": 5,
+   "days": 26
+  },
+  {
+   "hour": 6,
+   "days": 6
+  },
+  {
+   "hour": 7,
+   "days": 7
+  },
+  {
+   "hour": 8,
+   "days": 10
+  },
+  {
+   "hour": 10,
+   "days": 14
+  },
+  {
+   "hour": 11,
+   "days": 46
+  },
+  {
+   "hour": 12,
+   "days": 95
+  },
+  {
+   "hour": 13,
+   "days": 167
+  },
+  {
+   "hour": 14,
+   "days": 44
+  },
+  {
+   "hour": 15,
+   "days": 54
+  },
+  {
+   "hour": 16,
+   "days": 25
+  },
+  {
+   "hour": 17,
+   "days": 6
+  },
+  {
+   "hour": 24,
+   "days": 1
+  }
+ ],
+ "daily": [
+  {
+   "date": "2025-01-01",
+   "min": 490.0,
+   "max": 8300.0,
+   "spread": 7810.0,
+   "netSpread": 3662.0,
+   "minHour": 11,
+   "maxHour": 18,
+   "avg": 3250.7
+  },
+  {
+   "date": "2025-01-02",
+   "min": 1199.0,
+   "max": 8200.0,
+   "spread": 7001.0,
+   "netSpread": 2868.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 4685.3
+  },
+  {
+   "date": "2025-01-03",
+   "min": 1999.0,
+   "max": 8000.0,
+   "spread": 6001.0,
+   "netSpread": 1898.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5203.2
+  },
+  {
+   "date": "2025-01-04",
+   "min": 2678.0,
+   "max": 8947.11,
+   "spread": 6269.1,
+   "netSpread": 2024.0,
+   "minHour": 5,
+   "maxHour": 21,
+   "avg": 5436.6
+  },
+  {
+   "date": "2025-01-05",
+   "min": 2819.0,
+   "max": 8600.0,
+   "spread": 5781.0,
+   "netSpread": 1588.0,
+   "minHour": 12,
+   "maxHour": 18,
+   "avg": 4869.1
+  },
+  {
+   "date": "2025-01-06",
+   "min": 2000.0,
+   "max": 8700.0,
+   "spread": 6700.0,
+   "netSpread": 2492.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5402.0
+  },
+  {
+   "date": "2025-01-07",
+   "min": 2500.0,
+   "max": 8600.0,
+   "spread": 6100.0,
+   "netSpread": 1907.0,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 5168.3
+  },
+  {
+   "date": "2025-01-08",
+   "min": 2678.0,
+   "max": 8950.66,
+   "spread": 6272.7,
+   "netSpread": 2027.1,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5721.2
+  },
+  {
+   "date": "2025-01-09",
+   "min": 3880.0,
+   "max": 8200.0,
+   "spread": 4320.0,
+   "netSpread": 187.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5835.2
+  },
+  {
+   "date": "2025-01-10",
+   "min": 2500.0,
+   "max": 8000.0,
+   "spread": 5500.0,
+   "netSpread": 1397.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5528.8
+  },
+  {
+   "date": "2025-01-11",
+   "min": 4308.0,
+   "max": 9000.0,
+   "spread": 4692.0,
+   "netSpread": 439.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6163.5
+  },
+  {
+   "date": "2025-01-12",
+   "min": 2890.0,
+   "max": 8600.0,
+   "spread": 5710.0,
+   "netSpread": 1517.0,
+   "minHour": 12,
+   "maxHour": 18,
+   "avg": 5259.2
+  },
+  {
+   "date": "2025-01-13",
+   "min": 2678.0,
+   "max": 8936.24,
+   "spread": 6258.2,
+   "netSpread": 2014.8,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5627.1
+  },
+  {
+   "date": "2025-01-14",
+   "min": 3000.0,
+   "max": 9000.0,
+   "spread": 6000.0,
+   "netSpread": 1747.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 5823.0
+  },
+  {
+   "date": "2025-01-15",
+   "min": 3000.0,
+   "max": 9000.0,
+   "spread": 6000.0,
+   "netSpread": 1747.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6162.3
+  },
+  {
+   "date": "2025-01-16",
+   "min": 2678.0,
+   "max": 9000.0,
+   "spread": 6322.0,
+   "netSpread": 2069.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5863.5
+  },
+  {
+   "date": "2025-01-17",
+   "min": 2000.0,
+   "max": 8950.0,
+   "spread": 6950.0,
+   "netSpread": 2704.5,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 5744.0
+  },
+  {
+   "date": "2025-01-18",
+   "min": 2490.0,
+   "max": 8988.69,
+   "spread": 6498.7,
+   "netSpread": 2247.4,
+   "minHour": 3,
+   "maxHour": 22,
+   "avg": 5452.9
+  },
+  {
+   "date": "2025-01-19",
+   "min": 2840.0,
+   "max": 8990.02,
+   "spread": 6150.0,
+   "netSpread": 1898.5,
+   "minHour": 14,
+   "maxHour": 23,
+   "avg": 5387.9
+  },
+  {
+   "date": "2025-01-20",
+   "min": 2500.0,
+   "max": 9000.0,
+   "spread": 6500.0,
+   "netSpread": 2247.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 5425.3
+  },
+  {
+   "date": "2025-01-21",
+   "min": 2678.0,
+   "max": 9000.0,
+   "spread": 6322.0,
+   "netSpread": 2069.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5958.9
+  },
+  {
+   "date": "2025-01-22",
+   "min": 2000.0,
+   "max": 9000.0,
+   "spread": 7000.0,
+   "netSpread": 2747.0,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 5735.1
+  },
+  {
+   "date": "2025-01-23",
+   "min": 3300.0,
+   "max": 8989.69,
+   "spread": 5689.7,
+   "netSpread": 1438.2,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 6120.1
+  },
+  {
+   "date": "2025-01-24",
+   "min": 2890.0,
+   "max": 8980.0,
+   "spread": 6090.0,
+   "netSpread": 1840.0,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 5992.3
+  },
+  {
+   "date": "2025-01-25",
+   "min": 2850.0,
+   "max": 8992.48,
+   "spread": 6142.5,
+   "netSpread": 1890.6,
+   "minHour": 5,
+   "maxHour": 20,
+   "avg": 5731.1
+  },
+  {
+   "date": "2025-01-26",
+   "min": 2500.0,
+   "max": 8989.15,
+   "spread": 6489.1,
+   "netSpread": 2237.8,
+   "minHour": 4,
+   "maxHour": 22,
+   "avg": 5400.5
+  },
+  {
+   "date": "2025-01-27",
+   "min": 2000.0,
+   "max": 8900.0,
+   "spread": 6900.0,
+   "netSpread": 2662.0,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 5376.6
+  },
+  {
+   "date": "2025-01-28",
+   "min": 2480.0,
+   "max": 8987.55,
+   "spread": 6507.5,
+   "netSpread": 2256.4,
+   "minHour": 3,
+   "maxHour": 20,
+   "avg": 5845.8
+  },
+  {
+   "date": "2025-01-29",
+   "min": 2428.0,
+   "max": 9000.0,
+   "spread": 6572.0,
+   "netSpread": 2319.0,
+   "minHour": 5,
+   "maxHour": 22,
+   "avg": 5868.8
+  },
+  {
+   "date": "2025-01-30",
+   "min": 2650.0,
+   "max": 8980.0,
+   "spread": 6330.0,
+   "netSpread": 2080.0,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 6041.0
+  },
+  {
+   "date": "2025-01-31",
+   "min": 2428.0,
+   "max": 8700.0,
+   "spread": 6272.0,
+   "netSpread": 2064.0,
+   "minHour": 5,
+   "maxHour": 20,
+   "avg": 5909.7
+  },
+  {
+   "date": "2025-02-01",
+   "min": 2200.0,
+   "max": 8600.0,
+   "spread": 6400.0,
+   "netSpread": 2207.0,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 5071.2
+  },
+  {
+   "date": "2025-02-02",
+   "min": 2390.0,
+   "max": 8922.06,
+   "spread": 6532.1,
+   "netSpread": 2290.8,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 5135.6
+  },
+  {
+   "date": "2025-02-03",
+   "min": 3798.0,
+   "max": 9000.0,
+   "spread": 5202.0,
+   "netSpread": 949.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6288.9
+  },
+  {
+   "date": "2025-02-04",
+   "min": 698.0,
+   "max": 9000.0,
+   "spread": 8302.0,
+   "netSpread": 4049.0,
+   "minHour": 5,
+   "maxHour": 19,
+   "avg": 5591.2
+  },
+  {
+   "date": "2025-02-05",
+   "min": 2000.0,
+   "max": 8920.0,
+   "spread": 6920.0,
+   "netSpread": 2679.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 5723.6
+  },
+  {
+   "date": "2025-02-06",
+   "min": 2400.0,
+   "max": 8700.0,
+   "spread": 6300.0,
+   "netSpread": 2092.0,
+   "minHour": 5,
+   "maxHour": 19,
+   "avg": 5528.1
+  },
+  {
+   "date": "2025-02-07",
+   "min": 2480.0,
+   "max": 8600.0,
+   "spread": 6120.0,
+   "netSpread": 1927.0,
+   "minHour": 5,
+   "maxHour": 19,
+   "avg": 5665.2
+  },
+  {
+   "date": "2025-02-08",
+   "min": 2520.0,
+   "max": 8700.0,
+   "spread": 6180.0,
+   "netSpread": 1972.0,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 5177.5
+  },
+  {
+   "date": "2025-02-09",
+   "min": 2350.0,
+   "max": 8990.21,
+   "spread": 6640.2,
+   "netSpread": 2388.7,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 5142.2
+  },
+  {
+   "date": "2025-02-10",
+   "min": 2480.0,
+   "max": 9000.0,
+   "spread": 6520.0,
+   "netSpread": 2267.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5810.4
+  },
+  {
+   "date": "2025-02-11",
+   "min": 3000.0,
+   "max": 9000.0,
+   "spread": 6000.0,
+   "netSpread": 1747.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6053.7
+  },
+  {
+   "date": "2025-02-12",
+   "min": 2998.0,
+   "max": 9000.0,
+   "spread": 6002.0,
+   "netSpread": 1749.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 5915.1
+  },
+  {
+   "date": "2025-02-13",
+   "min": 2700.0,
+   "max": 9000.0,
+   "spread": 6300.0,
+   "netSpread": 2047.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 5759.6
+  },
+  {
+   "date": "2025-02-14",
+   "min": 3100.0,
+   "max": 9000.0,
+   "spread": 5900.0,
+   "netSpread": 1647.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 6107.1
+  },
+  {
+   "date": "2025-02-15",
+   "min": 3858.0,
+   "max": 9000.0,
+   "spread": 5142.0,
+   "netSpread": 889.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 6029.8
+  },
+  {
+   "date": "2025-02-16",
+   "min": 2990.0,
+   "max": 9000.0,
+   "spread": 6010.0,
+   "netSpread": 1757.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 5538.0
+  },
+  {
+   "date": "2025-02-17",
+   "min": 3858.0,
+   "max": 9000.0,
+   "spread": 5142.0,
+   "netSpread": 889.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6132.4
+  },
+  {
+   "date": "2025-02-18",
+   "min": 3799.0,
+   "max": 9000.0,
+   "spread": 5201.0,
+   "netSpread": 948.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 6304.9
+  },
+  {
+   "date": "2025-02-19",
+   "min": 4640.0,
+   "max": 9000.0,
+   "spread": 4360.0,
+   "netSpread": 107.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 6595.8
+  },
+  {
+   "date": "2025-02-20",
+   "min": 4740.0,
+   "max": 9000.0,
+   "spread": 4260.0,
+   "netSpread": 7.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6637.5
+  },
+  {
+   "date": "2025-02-21",
+   "min": 4250.0,
+   "max": 9000.0,
+   "spread": 4750.0,
+   "netSpread": 497.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6244.5
+  },
+  {
+   "date": "2025-02-22",
+   "min": 2380.0,
+   "max": 9000.0,
+   "spread": 6620.0,
+   "netSpread": 2367.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 5655.0
+  },
+  {
+   "date": "2025-02-23",
+   "min": 2000.0,
+   "max": 9000.0,
+   "spread": 7000.0,
+   "netSpread": 2747.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 5405.7
+  },
+  {
+   "date": "2025-02-24",
+   "min": 2626.0,
+   "max": 9000.0,
+   "spread": 6374.0,
+   "netSpread": 2121.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 5862.9
+  },
+  {
+   "date": "2025-02-25",
+   "min": 3950.0,
+   "max": 9000.0,
+   "spread": 5050.0,
+   "netSpread": 797.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 6403.5
+  },
+  {
+   "date": "2025-02-26",
+   "min": 3945.0,
+   "max": 9000.0,
+   "spread": 5055.0,
+   "netSpread": 802.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 6336.5
+  },
+  {
+   "date": "2025-02-27",
+   "min": 3750.0,
+   "max": 9000.0,
+   "spread": 5250.0,
+   "netSpread": 997.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 6046.7
+  },
+  {
+   "date": "2025-02-28",
+   "min": 3785.0,
+   "max": 9000.0,
+   "spread": 5215.0,
+   "netSpread": 962.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 6277.5
+  },
+  {
+   "date": "2025-03-01",
+   "min": 2480.0,
+   "max": 9000.0,
+   "spread": 6520.0,
+   "netSpread": 2267.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 5727.7
+  },
+  {
+   "date": "2025-03-02",
+   "min": 3391.0,
+   "max": 8900.0,
+   "spread": 5509.0,
+   "netSpread": 1271.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 5481.9
+  },
+  {
+   "date": "2025-03-03",
+   "min": 3300.0,
+   "max": 9000.0,
+   "spread": 5700.0,
+   "netSpread": 1447.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6146.7
+  },
+  {
+   "date": "2025-03-04",
+   "min": 985.0,
+   "max": 9000.0,
+   "spread": 8015.0,
+   "netSpread": 3762.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 5116.4
+  },
+  {
+   "date": "2025-03-05",
+   "min": 500.0,
+   "max": 9000.0,
+   "spread": 8500.0,
+   "netSpread": 4247.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 4947.0
+  },
+  {
+   "date": "2025-03-06",
+   "min": 400.0,
+   "max": 9000.0,
+   "spread": 8600.0,
+   "netSpread": 4347.0,
+   "minHour": 14,
+   "maxHour": 19,
+   "avg": 3960.3
+  },
+  {
+   "date": "2025-03-07",
+   "min": 2699.0,
+   "max": 9000.0,
+   "spread": 6301.0,
+   "netSpread": 2048.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 5634.5
+  },
+  {
+   "date": "2025-03-08",
+   "min": 999.0,
+   "max": 9000.0,
+   "spread": 8001.0,
+   "netSpread": 3748.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 5353.2
+  },
+  {
+   "date": "2025-03-09",
+   "min": 250.0,
+   "max": 9000.0,
+   "spread": 8750.0,
+   "netSpread": 4497.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 4186.9
+  },
+  {
+   "date": "2025-03-10",
+   "min": 350.0,
+   "max": 9000.0,
+   "spread": 8650.0,
+   "netSpread": 4397.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 4918.9
+  },
+  {
+   "date": "2025-03-11",
+   "min": 450.0,
+   "max": 9000.0,
+   "spread": 8550.0,
+   "netSpread": 4297.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 4688.5
+  },
+  {
+   "date": "2025-03-12",
+   "min": 450.0,
+   "max": 9000.0,
+   "spread": 8550.0,
+   "netSpread": 4297.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 4735.7
+  },
+  {
+   "date": "2025-03-13",
+   "min": 450.0,
+   "max": 8891.93,
+   "spread": 8441.9,
+   "netSpread": 4205.1,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 4882.3
+  },
+  {
+   "date": "2025-03-14",
+   "min": 450.0,
+   "max": 9000.0,
+   "spread": 8550.0,
+   "netSpread": 4297.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4955.3
+  },
+  {
+   "date": "2025-03-15",
+   "min": 1745.0,
+   "max": 8400.0,
+   "spread": 6655.0,
+   "netSpread": 2492.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4809.2
+  },
+  {
+   "date": "2025-03-16",
+   "min": 1598.0,
+   "max": 8750.0,
+   "spread": 7152.0,
+   "netSpread": 2936.5,
+   "minHour": 13,
+   "maxHour": 23,
+   "avg": 5127.9
+  },
+  {
+   "date": "2025-03-17",
+   "min": 3400.0,
+   "max": 8893.95,
+   "spread": 5494.0,
+   "netSpread": 1256.9,
+   "minHour": 15,
+   "maxHour": 20,
+   "avg": 5715.2
+  },
+  {
+   "date": "2025-03-18",
+   "min": 2450.0,
+   "max": 8892.05,
+   "spread": 6442.0,
+   "netSpread": 2205.2,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5035.0
+  },
+  {
+   "date": "2025-03-19",
+   "min": 2523.08,
+   "max": 9000.0,
+   "spread": 6476.9,
+   "netSpread": 2223.9,
+   "minHour": 15,
+   "maxHour": 20,
+   "avg": 5317.8
+  },
+  {
+   "date": "2025-03-20",
+   "min": 1498.0,
+   "max": 9000.0,
+   "spread": 7502.0,
+   "netSpread": 3249.0,
+   "minHour": 14,
+   "maxHour": 20,
+   "avg": 4829.4
+  },
+  {
+   "date": "2025-03-21",
+   "min": 3000.0,
+   "max": 9000.0,
+   "spread": 6000.0,
+   "netSpread": 1747.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 5988.4
+  },
+  {
+   "date": "2025-03-22",
+   "min": 320.0,
+   "max": 8400.0,
+   "spread": 8080.0,
+   "netSpread": 3917.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 4585.8
+  },
+  {
+   "date": "2025-03-23",
+   "min": 440.0,
+   "max": 8300.0,
+   "spread": 7860.0,
+   "netSpread": 3712.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 4017.5
+  },
+  {
+   "date": "2025-03-24",
+   "min": 3000.0,
+   "max": 9000.0,
+   "spread": 6000.0,
+   "netSpread": 1747.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 5909.9
+  },
+  {
+   "date": "2025-03-25",
+   "min": 4000.0,
+   "max": 9000.0,
+   "spread": 5000.0,
+   "netSpread": 747.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 6371.8
+  },
+  {
+   "date": "2025-03-26",
+   "min": 2950.0,
+   "max": 9000.0,
+   "spread": 6050.0,
+   "netSpread": 1797.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 5964.3
+  },
+  {
+   "date": "2025-03-27",
+   "min": 3840.0,
+   "max": 9000.0,
+   "spread": 5160.0,
+   "netSpread": 907.0,
+   "minHour": 12,
+   "maxHour": 18,
+   "avg": 6269.7
+  },
+  {
+   "date": "2025-03-28",
+   "min": 100.0,
+   "max": 8600.0,
+   "spread": 8500.0,
+   "netSpread": 4307.0,
+   "minHour": 12,
+   "maxHour": 18,
+   "avg": 4195.1
+  },
+  {
+   "date": "2025-03-29",
+   "min": 90.0,
+   "max": 9000.0,
+   "spread": 8910.0,
+   "netSpread": 4657.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4131.4
+  },
+  {
+   "date": "2025-03-30",
+   "min": 2900.0,
+   "max": 9000.0,
+   "spread": 6100.0,
+   "netSpread": 1847.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 5241.9
+  },
+  {
+   "date": "2025-03-31",
+   "min": 1077.0,
+   "max": 9000.0,
+   "spread": 7923.0,
+   "netSpread": 3670.0,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 5428.8
+  },
+  {
+   "date": "2025-04-01",
+   "min": 1000.0,
+   "max": 8800.0,
+   "spread": 7800.0,
+   "netSpread": 3577.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 4410.5
+  },
+  {
+   "date": "2025-04-02",
+   "min": 300.0,
+   "max": 8600.0,
+   "spread": 8300.0,
+   "netSpread": 4107.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 4003.5
+  },
+  {
+   "date": "2025-04-03",
+   "min": 2888.0,
+   "max": 8850.0,
+   "spread": 5962.0,
+   "netSpread": 1731.5,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 5163.1
+  },
+  {
+   "date": "2025-04-04",
+   "min": 900.0,
+   "max": 9000.0,
+   "spread": 8100.0,
+   "netSpread": 3847.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4981.5
+  },
+  {
+   "date": "2025-04-05",
+   "min": 1750.0,
+   "max": 8300.0,
+   "spread": 6550.0,
+   "netSpread": 2402.0,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 4289.3
+  },
+  {
+   "date": "2025-04-06",
+   "min": 450.0,
+   "max": 8500.0,
+   "spread": 8050.0,
+   "netSpread": 3872.0,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 3575.7
+  },
+  {
+   "date": "2025-04-07",
+   "min": 180.0,
+   "max": 9000.0,
+   "spread": 8820.0,
+   "netSpread": 4567.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 4340.8
+  },
+  {
+   "date": "2025-04-08",
+   "min": 2950.0,
+   "max": 9000.0,
+   "spread": 6050.0,
+   "netSpread": 1797.0,
+   "minHour": 3,
+   "maxHour": 21,
+   "avg": 5181.0
+  },
+  {
+   "date": "2025-04-09",
+   "min": 1495.0,
+   "max": 8870.0,
+   "spread": 7375.0,
+   "netSpread": 3141.5,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 4480.2
+  },
+  {
+   "date": "2025-04-10",
+   "min": 1495.0,
+   "max": 8700.0,
+   "spread": 7205.0,
+   "netSpread": 2997.0,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 4551.3
+  },
+  {
+   "date": "2025-04-11",
+   "min": 1794.0,
+   "max": 8870.0,
+   "spread": 7076.0,
+   "netSpread": 2842.5,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 4770.3
+  },
+  {
+   "date": "2025-04-12",
+   "min": 430.0,
+   "max": 8677.0,
+   "spread": 8247.0,
+   "netSpread": 4042.4,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 3647.2
+  },
+  {
+   "date": "2025-04-13",
+   "min": 100.0,
+   "max": 8300.0,
+   "spread": 8200.0,
+   "netSpread": 4052.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 3637.4
+  },
+  {
+   "date": "2025-04-14",
+   "min": 450.0,
+   "max": 8892.02,
+   "spread": 8442.0,
+   "netSpread": 4205.2,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4213.7
+  },
+  {
+   "date": "2025-04-15",
+   "min": 450.0,
+   "max": 8893.14,
+   "spread": 8443.1,
+   "netSpread": 4206.2,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4860.6
+  },
+  {
+   "date": "2025-04-16",
+   "min": 1740.0,
+   "max": 8900.0,
+   "spread": 7160.0,
+   "netSpread": 2922.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5266.2
+  },
+  {
+   "date": "2025-04-17",
+   "min": 2487.0,
+   "max": 8870.0,
+   "spread": 6383.0,
+   "netSpread": 2149.5,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 5018.8
+  },
+  {
+   "date": "2025-04-18",
+   "min": 450.0,
+   "max": 8600.0,
+   "spread": 8150.0,
+   "netSpread": 3957.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4009.9
+  },
+  {
+   "date": "2025-04-19",
+   "min": 1880.0,
+   "max": 8769.25,
+   "spread": 6889.2,
+   "netSpread": 2670.9,
+   "minHour": 17,
+   "maxHour": 21,
+   "avg": 4192.8
+  },
+  {
+   "date": "2025-04-20",
+   "min": 84.0,
+   "max": 8300.0,
+   "spread": 8216.0,
+   "netSpread": 4068.0,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 2607.7
+  },
+  {
+   "date": "2025-04-21",
+   "min": 100.0,
+   "max": 8400.0,
+   "spread": 8300.0,
+   "netSpread": 4137.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 3641.5
+  },
+  {
+   "date": "2025-04-22",
+   "min": 100.0,
+   "max": 8300.0,
+   "spread": 8200.0,
+   "netSpread": 4052.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 3630.0
+  },
+  {
+   "date": "2025-04-23",
+   "min": 100.0,
+   "max": 9000.0,
+   "spread": 8900.0,
+   "netSpread": 4647.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 4905.5
+  },
+  {
+   "date": "2025-04-24",
+   "min": 450.0,
+   "max": 9000.0,
+   "spread": 8550.0,
+   "netSpread": 4297.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4549.0
+  },
+  {
+   "date": "2025-04-25",
+   "min": 1000.0,
+   "max": 8900.0,
+   "spread": 7900.0,
+   "netSpread": 3662.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4821.2
+  },
+  {
+   "date": "2025-04-26",
+   "min": 100.0,
+   "max": 8800.0,
+   "spread": 8700.0,
+   "netSpread": 4477.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 3385.4
+  },
+  {
+   "date": "2025-04-27",
+   "min": 69.0,
+   "max": 8800.0,
+   "spread": 8731.0,
+   "netSpread": 4508.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 3071.6
+  },
+  {
+   "date": "2025-04-28",
+   "min": 100.0,
+   "max": 8813.6,
+   "spread": 8713.6,
+   "netSpread": 4488.6,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4487.3
+  },
+  {
+   "date": "2025-04-29",
+   "min": 100.0,
+   "max": 8800.0,
+   "spread": 8700.0,
+   "netSpread": 4477.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4079.6
+  },
+  {
+   "date": "2025-04-30",
+   "min": 70.0,
+   "max": 8600.0,
+   "spread": 8530.0,
+   "netSpread": 4337.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 3986.6
+  },
+  {
+   "date": "2025-05-01",
+   "min": 1696.0,
+   "max": 8812.32,
+   "spread": 7116.3,
+   "netSpread": 2891.5,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5652.2
+  },
+  {
+   "date": "2025-05-02",
+   "min": 1850.0,
+   "max": 8800.0,
+   "spread": 6950.0,
+   "netSpread": 2727.0,
+   "minHour": 16,
+   "maxHour": 19,
+   "avg": 4991.9
+  },
+  {
+   "date": "2025-05-03",
+   "min": 100.0,
+   "max": 8750.0,
+   "spread": 8650.0,
+   "netSpread": 4434.5,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 4502.8
+  },
+  {
+   "date": "2025-05-04",
+   "min": 2200.0,
+   "max": 8800.0,
+   "spread": 6600.0,
+   "netSpread": 2377.0,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4585.6
+  },
+  {
+   "date": "2025-05-05",
+   "min": 3850.0,
+   "max": 8866.62,
+   "spread": 5016.6,
+   "netSpread": 783.6,
+   "minHour": 14,
+   "maxHour": 23,
+   "avg": 5719.1
+  },
+  {
+   "date": "2025-05-06",
+   "min": 3900.0,
+   "max": 8869.46,
+   "spread": 4969.5,
+   "netSpread": 736.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6247.2
+  },
+  {
+   "date": "2025-05-07",
+   "min": 890.0,
+   "max": 8871.28,
+   "spread": 7981.3,
+   "netSpread": 3747.6,
+   "minHour": 5,
+   "maxHour": 22,
+   "avg": 5721.2
+  },
+  {
+   "date": "2025-05-08",
+   "min": 3406.0,
+   "max": 8871.52,
+   "spread": 5465.5,
+   "netSpread": 1231.8,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5768.5
+  },
+  {
+   "date": "2025-05-09",
+   "min": 3450.0,
+   "max": 8870.73,
+   "spread": 5420.7,
+   "netSpread": 1187.1,
+   "minHour": 17,
+   "maxHour": 22,
+   "avg": 5809.9
+  },
+  {
+   "date": "2025-05-10",
+   "min": 1890.0,
+   "max": 8600.0,
+   "spread": 6710.0,
+   "netSpread": 2517.0,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 4628.7
+  },
+  {
+   "date": "2025-05-11",
+   "min": 3900.0,
+   "max": 8866.87,
+   "spread": 4966.9,
+   "netSpread": 733.8,
+   "minHour": 10,
+   "maxHour": 23,
+   "avg": 5497.3
+  },
+  {
+   "date": "2025-05-12",
+   "min": 600.0,
+   "max": 8871.92,
+   "spread": 8271.9,
+   "netSpread": 4038.1,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 3935.5
+  },
+  {
+   "date": "2025-05-13",
+   "min": 75.0,
+   "max": 9000.0,
+   "spread": 8925.0,
+   "netSpread": 4672.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4238.3
+  },
+  {
+   "date": "2025-05-14",
+   "min": 50.0,
+   "max": 9000.0,
+   "spread": 8950.0,
+   "netSpread": 4697.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4544.1
+  },
+  {
+   "date": "2025-05-15",
+   "min": 80.0,
+   "max": 9000.0,
+   "spread": 8920.0,
+   "netSpread": 4667.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4233.7
+  },
+  {
+   "date": "2025-05-16",
+   "min": 70.0,
+   "max": 9000.0,
+   "spread": 8930.0,
+   "netSpread": 4677.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 3364.0
+  },
+  {
+   "date": "2025-05-17",
+   "min": 520.0,
+   "max": 8850.0,
+   "spread": 8330.0,
+   "netSpread": 4099.5,
+   "minHour": 6,
+   "maxHour": 19,
+   "avg": 5479.1
+  },
+  {
+   "date": "2025-05-18",
+   "min": 100.0,
+   "max": 8700.0,
+   "spread": 8600.0,
+   "netSpread": 4392.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 3035.2
+  },
+  {
+   "date": "2025-05-19",
+   "min": 77.0,
+   "max": 8600.0,
+   "spread": 8523.0,
+   "netSpread": 4330.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 2446.5
+  },
+  {
+   "date": "2025-05-20",
+   "min": 100.0,
+   "max": 8850.0,
+   "spread": 8750.0,
+   "netSpread": 4519.5,
+   "minHour": 6,
+   "maxHour": 22,
+   "avg": 3656.3
+  },
+  {
+   "date": "2025-05-21",
+   "min": 80.0,
+   "max": 9000.0,
+   "spread": 8920.0,
+   "netSpread": 4667.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 3435.8
+  },
+  {
+   "date": "2025-05-22",
+   "min": 43.0,
+   "max": 9000.0,
+   "spread": 8957.0,
+   "netSpread": 4704.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 4549.5
+  },
+  {
+   "date": "2025-05-23",
+   "min": 80.0,
+   "max": 8892.84,
+   "spread": 8812.8,
+   "netSpread": 4575.9,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4352.7
+  },
+  {
+   "date": "2025-05-24",
+   "min": 798.0,
+   "max": 8840.0,
+   "spread": 8042.0,
+   "netSpread": 3813.0,
+   "minHour": 5,
+   "maxHour": 22,
+   "avg": 4567.3
+  },
+  {
+   "date": "2025-05-25",
+   "min": 750.0,
+   "max": 8600.0,
+   "spread": 7850.0,
+   "netSpread": 3657.0,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 3571.8
+  },
+  {
+   "date": "2025-05-26",
+   "min": 1480.0,
+   "max": 8700.0,
+   "spread": 7220.0,
+   "netSpread": 3012.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5217.3
+  },
+  {
+   "date": "2025-05-27",
+   "min": 100.0,
+   "max": 8840.0,
+   "spread": 8740.0,
+   "netSpread": 4511.0,
+   "minHour": 3,
+   "maxHour": 22,
+   "avg": 3457.7
+  },
+  {
+   "date": "2025-05-28",
+   "min": 150.0,
+   "max": 9000.0,
+   "spread": 8850.0,
+   "netSpread": 4597.0,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 3610.6
+  },
+  {
+   "date": "2025-05-29",
+   "min": 70.0,
+   "max": 8840.0,
+   "spread": 8770.0,
+   "netSpread": 4541.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 3779.7
+  },
+  {
+   "date": "2025-05-30",
+   "min": 42.0,
+   "max": 8300.0,
+   "spread": 8258.0,
+   "netSpread": 4110.0,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 3541.2
+  },
+  {
+   "date": "2025-05-31",
+   "min": 53.0,
+   "max": 8600.0,
+   "spread": 8547.0,
+   "netSpread": 4354.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 2939.8
+  },
+  {
+   "date": "2025-06-01",
+   "min": 555.0,
+   "max": 8891.74,
+   "spread": 8336.7,
+   "netSpread": 4100.0,
+   "minHour": 10,
+   "maxHour": 22,
+   "avg": 4841.5
+  },
+  {
+   "date": "2025-06-02",
+   "min": 100.0,
+   "max": 8840.0,
+   "spread": 8740.0,
+   "netSpread": 4511.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 4329.6
+  },
+  {
+   "date": "2025-06-03",
+   "min": 100.0,
+   "max": 8870.0,
+   "spread": 8770.0,
+   "netSpread": 4536.5,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4816.2
+  },
+  {
+   "date": "2025-06-04",
+   "min": 100.0,
+   "max": 9000.0,
+   "spread": 8900.0,
+   "netSpread": 4647.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4678.8
+  },
+  {
+   "date": "2025-06-05",
+   "min": 488.0,
+   "max": 9000.0,
+   "spread": 8512.0,
+   "netSpread": 4259.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 5066.1
+  },
+  {
+   "date": "2025-06-06",
+   "min": 488.0,
+   "max": 9000.0,
+   "spread": 8512.0,
+   "netSpread": 4259.0,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 5220.3
+  },
+  {
+   "date": "2025-06-07",
+   "min": 689.0,
+   "max": 8875.0,
+   "spread": 8186.0,
+   "netSpread": 3951.8,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 4525.8
+  },
+  {
+   "date": "2025-06-08",
+   "min": 421.0,
+   "max": 8600.0,
+   "spread": 8179.0,
+   "netSpread": 3986.0,
+   "minHour": 15,
+   "maxHour": 23,
+   "avg": 4227.0
+  },
+  {
+   "date": "2025-06-09",
+   "min": 80.0,
+   "max": 8875.0,
+   "spread": 8795.0,
+   "netSpread": 4560.8,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 4556.3
+  },
+  {
+   "date": "2025-06-10",
+   "min": 970.0,
+   "max": 9000.0,
+   "spread": 8030.0,
+   "netSpread": 3777.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5592.0
+  },
+  {
+   "date": "2025-06-11",
+   "min": 3610.0,
+   "max": 8892.06,
+   "spread": 5282.1,
+   "netSpread": 1045.3,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 6227.5
+  },
+  {
+   "date": "2025-06-12",
+   "min": 577.0,
+   "max": 8850.0,
+   "spread": 8273.0,
+   "netSpread": 4042.5,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 5285.3
+  },
+  {
+   "date": "2025-06-13",
+   "min": 40.0,
+   "max": 8800.0,
+   "spread": 8760.0,
+   "netSpread": 4537.0,
+   "minHour": 14,
+   "maxHour": 19,
+   "avg": 5074.2
+  },
+  {
+   "date": "2025-06-14",
+   "min": 38.9,
+   "max": 8600.0,
+   "spread": 8561.1,
+   "netSpread": 4368.1,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 3894.9
+  },
+  {
+   "date": "2025-06-15",
+   "min": 28.0,
+   "max": 7800.0,
+   "spread": 7772.0,
+   "netSpread": 3699.0,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 3700.9
+  },
+  {
+   "date": "2025-06-16",
+   "min": 11.0,
+   "max": 8690.0,
+   "spread": 8679.0,
+   "netSpread": 4472.5,
+   "minHour": 16,
+   "maxHour": 20,
+   "avg": 4447.6
+  },
+  {
+   "date": "2025-06-17",
+   "min": 22.0,
+   "max": 8550.0,
+   "spread": 8528.0,
+   "netSpread": 4342.5,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4197.6
+  },
+  {
+   "date": "2025-06-18",
+   "min": 24.0,
+   "max": 8878.71,
+   "spread": 8854.7,
+   "netSpread": 4619.9,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 4541.0
+  },
+  {
+   "date": "2025-06-19",
+   "min": 50.0,
+   "max": 8800.0,
+   "spread": 8750.0,
+   "netSpread": 4527.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4420.2
+  },
+  {
+   "date": "2025-06-20",
+   "min": 14.0,
+   "max": 8887.16,
+   "spread": 8873.2,
+   "netSpread": 4637.1,
+   "minHour": 14,
+   "maxHour": 23,
+   "avg": 3971.3
+  },
+  {
+   "date": "2025-06-21",
+   "min": 69.0,
+   "max": 8600.0,
+   "spread": 8531.0,
+   "netSpread": 4338.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 4062.1
+  },
+  {
+   "date": "2025-06-22",
+   "min": 69.0,
+   "max": 8890.49,
+   "spread": 8821.5,
+   "netSpread": 4584.9,
+   "minHour": 16,
+   "maxHour": 23,
+   "avg": 4106.0
+  },
+  {
+   "date": "2025-06-23",
+   "min": 80.0,
+   "max": 9000.0,
+   "spread": 8920.0,
+   "netSpread": 4667.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4832.1
+  },
+  {
+   "date": "2025-06-24",
+   "min": 70.0,
+   "max": 9000.0,
+   "spread": 8930.0,
+   "netSpread": 4677.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5019.6
+  },
+  {
+   "date": "2025-06-25",
+   "min": 70.0,
+   "max": 9000.0,
+   "spread": 8930.0,
+   "netSpread": 4677.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 4858.8
+  },
+  {
+   "date": "2025-06-26",
+   "min": 70.0,
+   "max": 9000.0,
+   "spread": 8930.0,
+   "netSpread": 4677.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 4825.7
+  },
+  {
+   "date": "2025-06-27",
+   "min": 840.0,
+   "max": 9000.0,
+   "spread": 8160.0,
+   "netSpread": 3907.0,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 5051.1
+  },
+  {
+   "date": "2025-06-28",
+   "min": 3499.0,
+   "max": 8880.0,
+   "spread": 5381.0,
+   "netSpread": 1146.0,
+   "minHour": 17,
+   "maxHour": 23,
+   "avg": 5147.8
+  },
+  {
+   "date": "2025-06-29",
+   "min": 1720.0,
+   "max": 8800.0,
+   "spread": 7080.0,
+   "netSpread": 2857.0,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 4375.8
+  },
+  {
+   "date": "2025-06-30",
+   "min": 68.0,
+   "max": 9000.0,
+   "spread": 8932.0,
+   "netSpread": 4679.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 4046.7
+  },
+  {
+   "date": "2025-07-01",
+   "min": 1500.0,
+   "max": 9000.0,
+   "spread": 7500.0,
+   "netSpread": 3247.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5307.4
+  },
+  {
+   "date": "2025-07-02",
+   "min": 2983.0,
+   "max": 9000.0,
+   "spread": 6017.0,
+   "netSpread": 1764.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5400.1
+  },
+  {
+   "date": "2025-07-03",
+   "min": 948.0,
+   "max": 9000.0,
+   "spread": 8052.0,
+   "netSpread": 3799.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4859.0
+  },
+  {
+   "date": "2025-07-04",
+   "min": 1390.0,
+   "max": 9000.0,
+   "spread": 7610.0,
+   "netSpread": 3357.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5208.0
+  },
+  {
+   "date": "2025-07-05",
+   "min": 1410.0,
+   "max": 8850.0,
+   "spread": 7440.0,
+   "netSpread": 3209.5,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4892.9
+  },
+  {
+   "date": "2025-07-06",
+   "min": 1350.0,
+   "max": 9000.0,
+   "spread": 7650.0,
+   "netSpread": 3397.0,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4772.4
+  },
+  {
+   "date": "2025-07-07",
+   "min": 485.0,
+   "max": 9000.0,
+   "spread": 8515.0,
+   "netSpread": 4262.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5073.0
+  },
+  {
+   "date": "2025-07-08",
+   "min": 1175.0,
+   "max": 9000.0,
+   "spread": 7825.0,
+   "netSpread": 3572.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5533.0
+  },
+  {
+   "date": "2025-07-09",
+   "min": 1878.0,
+   "max": 8850.0,
+   "spread": 6972.0,
+   "netSpread": 2741.5,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5296.4
+  },
+  {
+   "date": "2025-07-10",
+   "min": 2059.0,
+   "max": 7900.0,
+   "spread": 5841.0,
+   "netSpread": 1753.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4744.9
+  },
+  {
+   "date": "2025-07-11",
+   "min": 100.0,
+   "max": 7977.0,
+   "spread": 7877.0,
+   "netSpread": 3777.4,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4247.1
+  },
+  {
+   "date": "2025-07-12",
+   "min": 1799.0,
+   "max": 7500.0,
+   "spread": 5701.0,
+   "netSpread": 1673.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4610.4
+  },
+  {
+   "date": "2025-07-13",
+   "min": 1150.0,
+   "max": 7312.0,
+   "spread": 6162.0,
+   "netSpread": 2162.2,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4501.3
+  },
+  {
+   "date": "2025-07-14",
+   "min": 2799.0,
+   "max": 9000.0,
+   "spread": 6201.0,
+   "netSpread": 1948.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 5786.6
+  },
+  {
+   "date": "2025-07-15",
+   "min": 2500.0,
+   "max": 9000.0,
+   "spread": 6500.0,
+   "netSpread": 2247.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5451.6
+  },
+  {
+   "date": "2025-07-16",
+   "min": 3450.0,
+   "max": 8874.57,
+   "spread": 5424.6,
+   "netSpread": 1190.4,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 5318.7
+  },
+  {
+   "date": "2025-07-17",
+   "min": 3183.0,
+   "max": 8700.0,
+   "spread": 5517.0,
+   "netSpread": 1309.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 5288.2
+  },
+  {
+   "date": "2025-07-18",
+   "min": 3326.0,
+   "max": 8888.88,
+   "spread": 5562.9,
+   "netSpread": 1326.5,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 6003.7
+  },
+  {
+   "date": "2025-07-19",
+   "min": 502.0,
+   "max": 7800.0,
+   "spread": 7298.0,
+   "netSpread": 3225.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 4170.9
+  },
+  {
+   "date": "2025-07-20",
+   "min": 100.0,
+   "max": 8000.0,
+   "spread": 7900.0,
+   "netSpread": 3797.0,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 3635.3
+  },
+  {
+   "date": "2025-07-21",
+   "min": 1513.0,
+   "max": 8800.0,
+   "spread": 7287.0,
+   "netSpread": 3064.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5566.3
+  },
+  {
+   "date": "2025-07-22",
+   "min": 798.0,
+   "max": 8860.0,
+   "spread": 8062.0,
+   "netSpread": 3830.0,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 4764.2
+  },
+  {
+   "date": "2025-07-23",
+   "min": 888.0,
+   "max": 8890.03,
+   "spread": 8002.0,
+   "netSpread": 3765.5,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4945.1
+  },
+  {
+   "date": "2025-07-24",
+   "min": 2055.0,
+   "max": 9000.0,
+   "spread": 6945.0,
+   "netSpread": 2692.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 5726.4
+  },
+  {
+   "date": "2025-07-25",
+   "min": 3000.0,
+   "max": 8878.5,
+   "spread": 5878.5,
+   "netSpread": 1643.7,
+   "minHour": 15,
+   "maxHour": 23,
+   "avg": 5730.9
+  },
+  {
+   "date": "2025-07-26",
+   "min": 2750.0,
+   "max": 8891.85,
+   "spread": 6141.9,
+   "netSpread": 1905.1,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 5465.5
+  },
+  {
+   "date": "2025-07-27",
+   "min": 2550.0,
+   "max": 8892.14,
+   "spread": 6342.1,
+   "netSpread": 2105.3,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 5611.3
+  },
+  {
+   "date": "2025-07-28",
+   "min": 3592.0,
+   "max": 9000.0,
+   "spread": 5408.0,
+   "netSpread": 1155.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 6025.8
+  },
+  {
+   "date": "2025-07-29",
+   "min": 3480.0,
+   "max": 9000.0,
+   "spread": 5520.0,
+   "netSpread": 1267.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5821.4
+  },
+  {
+   "date": "2025-07-30",
+   "min": 2661.0,
+   "max": 9000.0,
+   "spread": 6339.0,
+   "netSpread": 2086.0,
+   "minHour": 16,
+   "maxHour": 21,
+   "avg": 5801.7
+  },
+  {
+   "date": "2025-07-31",
+   "min": 728.0,
+   "max": 9000.0,
+   "spread": 8272.0,
+   "netSpread": 4019.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5151.9
+  },
+  {
+   "date": "2025-08-01",
+   "min": 2087.0,
+   "max": 9300.0,
+   "spread": 7213.0,
+   "netSpread": 2915.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5501.5
+  },
+  {
+   "date": "2025-08-02",
+   "min": 2450.0,
+   "max": 9000.0,
+   "spread": 6550.0,
+   "netSpread": 2297.0,
+   "minHour": 17,
+   "maxHour": 23,
+   "avg": 5280.8
+  },
+  {
+   "date": "2025-08-03",
+   "min": 1880.0,
+   "max": 8300.0,
+   "spread": 6420.0,
+   "netSpread": 2272.0,
+   "minHour": 17,
+   "maxHour": 20,
+   "avg": 4944.3
+  },
+  {
+   "date": "2025-08-04",
+   "min": 1999.0,
+   "max": 12900.0,
+   "spread": 10901.0,
+   "netSpread": 6063.0,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 5419.5
+  },
+  {
+   "date": "2025-08-05",
+   "min": 1280.0,
+   "max": 10858.0,
+   "spread": 9578.0,
+   "netSpread": 5046.3,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5038.2
+  },
+  {
+   "date": "2025-08-06",
+   "min": 1600.0,
+   "max": 9100.0,
+   "spread": 7500.0,
+   "netSpread": 3232.0,
+   "minHour": 17,
+   "maxHour": 22,
+   "avg": 5494.6
+  },
+  {
+   "date": "2025-08-07",
+   "min": 1088.0,
+   "max": 9000.0,
+   "spread": 7912.0,
+   "netSpread": 3659.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4860.0
+  },
+  {
+   "date": "2025-08-08",
+   "min": 999.0,
+   "max": 14702.1,
+   "spread": 13703.1,
+   "netSpread": 8594.8,
+   "minHour": 13,
+   "maxHour": 23,
+   "avg": 5441.9
+  },
+  {
+   "date": "2025-08-09",
+   "min": 3250.0,
+   "max": 14699.19,
+   "spread": 11449.2,
+   "netSpread": 6341.3,
+   "minHour": 11,
+   "maxHour": 23,
+   "avg": 6158.0
+  },
+  {
+   "date": "2025-08-10",
+   "min": 1800.0,
+   "max": 10522.0,
+   "spread": 8722.0,
+   "netSpread": 4240.7,
+   "minHour": 15,
+   "maxHour": 23,
+   "avg": 5346.7
+  },
+  {
+   "date": "2025-08-11",
+   "min": 870.4,
+   "max": 11926.0,
+   "spread": 11055.6,
+   "netSpread": 6363.7,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5141.6
+  },
+  {
+   "date": "2025-08-12",
+   "min": 555.0,
+   "max": 14700.38,
+   "spread": 14145.4,
+   "netSpread": 9037.3,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5331.5
+  },
+  {
+   "date": "2025-08-13",
+   "min": 1300.0,
+   "max": 14849.21,
+   "spread": 13549.2,
+   "netSpread": 8418.8,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5993.4
+  },
+  {
+   "date": "2025-08-14",
+   "min": 1555.0,
+   "max": 15000.0,
+   "spread": 13445.0,
+   "netSpread": 8292.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 6204.2
+  },
+  {
+   "date": "2025-08-15",
+   "min": 500.0,
+   "max": 11000.0,
+   "spread": 10500.0,
+   "netSpread": 5947.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 4692.0
+  },
+  {
+   "date": "2025-08-16",
+   "min": 474.0,
+   "max": 11000.0,
+   "spread": 10526.0,
+   "netSpread": 5973.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4818.9
+  },
+  {
+   "date": "2025-08-17",
+   "min": 290.0,
+   "max": 15000.0,
+   "spread": 14710.0,
+   "netSpread": 9557.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 5691.7
+  },
+  {
+   "date": "2025-08-18",
+   "min": 100.0,
+   "max": 14902.28,
+   "spread": 14802.3,
+   "netSpread": 9663.9,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 6453.0
+  },
+  {
+   "date": "2025-08-19",
+   "min": 85.0,
+   "max": 14773.95,
+   "spread": 14689.0,
+   "netSpread": 9569.9,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5191.6
+  },
+  {
+   "date": "2025-08-20",
+   "min": 100.0,
+   "max": 14848.88,
+   "spread": 14748.9,
+   "netSpread": 9618.5,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 5194.6
+  },
+  {
+   "date": "2025-08-21",
+   "min": 445.0,
+   "max": 9651.0,
+   "spread": 9206.0,
+   "netSpread": 4855.4,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4842.9
+  },
+  {
+   "date": "2025-08-22",
+   "min": 400.0,
+   "max": 9500.0,
+   "spread": 9100.0,
+   "netSpread": 4772.0,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 5359.3
+  },
+  {
+   "date": "2025-08-23",
+   "min": 50.0,
+   "max": 10400.0,
+   "spread": 10350.0,
+   "netSpread": 5887.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 4258.5
+  },
+  {
+   "date": "2025-08-24",
+   "min": 20.0,
+   "max": 9500.0,
+   "spread": 9480.0,
+   "netSpread": 5152.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 3606.9
+  },
+  {
+   "date": "2025-08-25",
+   "min": 56.0,
+   "max": 14872.16,
+   "spread": 14816.2,
+   "netSpread": 9682.3,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4748.8
+  },
+  {
+   "date": "2025-08-26",
+   "min": 99.0,
+   "max": 10649.0,
+   "spread": 10550.0,
+   "netSpread": 6049.6,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4450.1
+  },
+  {
+   "date": "2025-08-27",
+   "min": 87.0,
+   "max": 10500.0,
+   "spread": 10413.0,
+   "netSpread": 5935.0,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 4801.5
+  },
+  {
+   "date": "2025-08-28",
+   "min": 87.0,
+   "max": 12500.0,
+   "spread": 12413.0,
+   "netSpread": 7635.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4721.8
+  },
+  {
+   "date": "2025-08-29",
+   "min": 99.0,
+   "max": 14903.1,
+   "spread": 14804.1,
+   "netSpread": 9665.6,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5629.9
+  },
+  {
+   "date": "2025-08-30",
+   "min": 100.0,
+   "max": 14904.3,
+   "spread": 14804.3,
+   "netSpread": 9665.7,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 5113.0
+  },
+  {
+   "date": "2025-08-31",
+   "min": 48.0,
+   "max": 14902.08,
+   "spread": 14854.1,
+   "netSpread": 9715.8,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 5121.8
+  },
+  {
+   "date": "2025-09-01",
+   "min": 400.0,
+   "max": 8500.0,
+   "spread": 8100.0,
+   "netSpread": 3922.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 3697.5
+  },
+  {
+   "date": "2025-09-02",
+   "min": 100.0,
+   "max": 9100.0,
+   "spread": 9000.0,
+   "netSpread": 4732.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 3182.9
+  },
+  {
+   "date": "2025-09-03",
+   "min": 50.0,
+   "max": 9500.0,
+   "spread": 9450.0,
+   "netSpread": 5122.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 3280.7
+  },
+  {
+   "date": "2025-09-04",
+   "min": 28.0,
+   "max": 9300.0,
+   "spread": 9272.0,
+   "netSpread": 4974.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 3394.3
+  },
+  {
+   "date": "2025-09-05",
+   "min": 24.0,
+   "max": 10000.0,
+   "spread": 9976.0,
+   "netSpread": 5573.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 3084.8
+  },
+  {
+   "date": "2025-09-06",
+   "min": 10.0,
+   "max": 9400.0,
+   "spread": 9390.0,
+   "netSpread": 5077.0,
+   "minHour": 12,
+   "maxHour": 19,
+   "avg": 4694.2
+  },
+  {
+   "date": "2025-09-07",
+   "min": 10.0,
+   "max": 7900.0,
+   "spread": 7890.0,
+   "netSpread": 3802.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 3498.6
+  },
+  {
+   "date": "2025-09-08",
+   "min": 10.0,
+   "max": 9600.0,
+   "spread": 9590.0,
+   "netSpread": 5247.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4366.7
+  },
+  {
+   "date": "2025-09-09",
+   "min": 268.0,
+   "max": 11000.0,
+   "spread": 10732.0,
+   "netSpread": 6179.0,
+   "minHour": 3,
+   "maxHour": 21,
+   "avg": 4417.9
+  },
+  {
+   "date": "2025-09-10",
+   "min": 414.99,
+   "max": 11000.0,
+   "spread": 10585.0,
+   "netSpread": 6032.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4745.8
+  },
+  {
+   "date": "2025-09-11",
+   "min": 100.0,
+   "max": 10300.0,
+   "spread": 10200.0,
+   "netSpread": 5752.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 3619.5
+  },
+  {
+   "date": "2025-09-12",
+   "min": 501.0,
+   "max": 9314.0,
+   "spread": 8813.0,
+   "netSpread": 4512.9,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4510.5
+  },
+  {
+   "date": "2025-09-13",
+   "min": 450.0,
+   "max": 8500.0,
+   "spread": 8050.0,
+   "netSpread": 3872.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4027.5
+  },
+  {
+   "date": "2025-09-14",
+   "min": 10.0,
+   "max": 7041.53,
+   "spread": 7031.5,
+   "netSpread": 3072.3,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 2522.2
+  },
+  {
+   "date": "2025-09-15",
+   "min": 10.0,
+   "max": 10500.0,
+   "spread": 10490.0,
+   "netSpread": 6012.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4350.9
+  },
+  {
+   "date": "2025-09-16",
+   "min": 47.99,
+   "max": 14897.89,
+   "spread": 14849.9,
+   "netSpread": 9712.2,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4818.8
+  },
+  {
+   "date": "2025-09-17",
+   "min": 100.0,
+   "max": 10500.0,
+   "spread": 10400.0,
+   "netSpread": 5922.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4745.4
+  },
+  {
+   "date": "2025-09-18",
+   "min": 50.0,
+   "max": 9100.0,
+   "spread": 9050.0,
+   "netSpread": 4782.0,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 3582.4
+  },
+  {
+   "date": "2025-09-19",
+   "min": 10.0,
+   "max": 13990.0,
+   "spread": 13980.0,
+   "netSpread": 8978.5,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4335.9
+  },
+  {
+   "date": "2025-09-20",
+   "min": 10.0,
+   "max": 9150.0,
+   "spread": 9140.0,
+   "netSpread": 4864.5,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 3196.7
+  },
+  {
+   "date": "2025-09-21",
+   "min": 10.0,
+   "max": 7500.0,
+   "spread": 7490.0,
+   "netSpread": 3462.0,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 2823.0
+  },
+  {
+   "date": "2025-09-22",
+   "min": 10.0,
+   "max": 14949.53,
+   "spread": 14939.5,
+   "netSpread": 9794.1,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 4892.1
+  },
+  {
+   "date": "2025-09-23",
+   "min": 70.0,
+   "max": 14899.08,
+   "spread": 14829.1,
+   "netSpread": 9691.2,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 5080.7
+  },
+  {
+   "date": "2025-09-24",
+   "min": 2555.55,
+   "max": 14899.24,
+   "spread": 12343.7,
+   "netSpread": 7205.8,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 6426.2
+  },
+  {
+   "date": "2025-09-25",
+   "min": 627.0,
+   "max": 9400.0,
+   "spread": 8773.0,
+   "netSpread": 4460.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4041.4
+  },
+  {
+   "date": "2025-09-26",
+   "min": 100.0,
+   "max": 8430.0,
+   "spread": 8330.0,
+   "netSpread": 4162.5,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4141.0
+  },
+  {
+   "date": "2025-09-27",
+   "min": 99.0,
+   "max": 8179.0,
+   "spread": 8080.0,
+   "netSpread": 3950.1,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 3920.1
+  },
+  {
+   "date": "2025-09-28",
+   "min": 580.0,
+   "max": 8999.0,
+   "spread": 8419.0,
+   "netSpread": 4166.1,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 4286.9
+  },
+  {
+   "date": "2025-09-29",
+   "min": 3785.0,
+   "max": 14899.73,
+   "spread": 11114.7,
+   "netSpread": 5976.8,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 6344.1
+  },
+  {
+   "date": "2025-09-30",
+   "min": 250.0,
+   "max": 14900.9,
+   "spread": 14650.9,
+   "netSpread": 9512.8,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 5879.4
+  },
+  {
+   "date": "2025-10-01",
+   "min": 99.0,
+   "max": 15000.0,
+   "spread": 14901.0,
+   "netSpread": 9748.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 5687.5
+  },
+  {
+   "date": "2025-10-02",
+   "min": 987.0,
+   "max": 10500.0,
+   "spread": 9513.0,
+   "netSpread": 5035.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 4988.5
+  },
+  {
+   "date": "2025-10-03",
+   "min": 1450.0,
+   "max": 7644.23,
+   "spread": 6194.2,
+   "netSpread": 2144.6,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 4073.2
+  },
+  {
+   "date": "2025-10-04",
+   "min": 2220.0,
+   "max": 8450.0,
+   "spread": 6230.0,
+   "netSpread": 2059.5,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4257.6
+  },
+  {
+   "date": "2025-10-05",
+   "min": 712.0,
+   "max": 9358.0,
+   "spread": 8646.0,
+   "netSpread": 4339.3,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4028.5
+  },
+  {
+   "date": "2025-10-06",
+   "min": 4080.0,
+   "max": 14900.66,
+   "spread": 10820.7,
+   "netSpread": 5682.6,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 6882.1
+  },
+  {
+   "date": "2025-10-07",
+   "min": 2840.0,
+   "max": 12000.0,
+   "spread": 9160.0,
+   "netSpread": 4457.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 6208.0
+  },
+  {
+   "date": "2025-10-08",
+   "min": 2850.0,
+   "max": 10450.0,
+   "spread": 7600.0,
+   "netSpread": 3129.5,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 5828.5
+  },
+  {
+   "date": "2025-10-09",
+   "min": 2987.0,
+   "max": 9500.0,
+   "spread": 6513.0,
+   "netSpread": 2185.0,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 5590.2
+  },
+  {
+   "date": "2025-10-10",
+   "min": 4080.0,
+   "max": 9000.0,
+   "spread": 4920.0,
+   "netSpread": 667.0,
+   "minHour": 5,
+   "maxHour": 20,
+   "avg": 5785.8
+  },
+  {
+   "date": "2025-10-11",
+   "min": 3189.0,
+   "max": 14950.88,
+   "spread": 11761.9,
+   "netSpread": 6616.2,
+   "minHour": 14,
+   "maxHour": 18,
+   "avg": 7702.8
+  },
+  {
+   "date": "2025-10-12",
+   "min": 995.0,
+   "max": 14904.36,
+   "spread": 13909.4,
+   "netSpread": 8770.7,
+   "minHour": 15,
+   "maxHour": 20,
+   "avg": 4869.9
+  },
+  {
+   "date": "2025-10-13",
+   "min": 1369.0,
+   "max": 14990.0,
+   "spread": 13621.0,
+   "netSpread": 8469.5,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 6755.8
+  },
+  {
+   "date": "2025-10-14",
+   "min": 3180.0,
+   "max": 14999.0,
+   "spread": 11819.0,
+   "netSpread": 6666.1,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 7708.1
+  },
+  {
+   "date": "2025-10-15",
+   "min": 3687.0,
+   "max": 15000.0,
+   "spread": 11313.0,
+   "netSpread": 6160.0,
+   "minHour": 12,
+   "maxHour": 18,
+   "avg": 7881.0
+  },
+  {
+   "date": "2025-10-16",
+   "min": 4900.0,
+   "max": 15000.0,
+   "spread": 10100.0,
+   "netSpread": 4947.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 8130.2
+  },
+  {
+   "date": "2025-10-17",
+   "min": 4540.0,
+   "max": 15000.0,
+   "spread": 10460.0,
+   "netSpread": 5307.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 7901.6
+  },
+  {
+   "date": "2025-10-18",
+   "min": 1490.0,
+   "max": 14899.64,
+   "spread": 13409.6,
+   "netSpread": 8271.7,
+   "minHour": 7,
+   "maxHour": 21,
+   "avg": 6286.4
+  },
+  {
+   "date": "2025-10-19",
+   "min": 490.0,
+   "max": 12500.0,
+   "spread": 12010.0,
+   "netSpread": 7232.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4506.0
+  },
+  {
+   "date": "2025-10-20",
+   "min": 1000.0,
+   "max": 14952.65,
+   "spread": 13952.6,
+   "netSpread": 8806.8,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 6365.2
+  },
+  {
+   "date": "2025-10-21",
+   "min": 198.0,
+   "max": 15000.0,
+   "spread": 14802.0,
+   "netSpread": 9649.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 5739.5
+  },
+  {
+   "date": "2025-10-22",
+   "min": 1829.0,
+   "max": 14901.18,
+   "spread": 13072.2,
+   "netSpread": 7934.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 6218.8
+  },
+  {
+   "date": "2025-10-23",
+   "min": 1790.0,
+   "max": 14902.0,
+   "spread": 13112.0,
+   "netSpread": 7973.7,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 6502.6
+  },
+  {
+   "date": "2025-10-24",
+   "min": 1490.0,
+   "max": 14000.0,
+   "spread": 12510.0,
+   "netSpread": 7507.0,
+   "minHour": 7,
+   "maxHour": 21,
+   "avg": 5690.9
+  },
+  {
+   "date": "2025-10-25",
+   "min": 79.0,
+   "max": 14951.01,
+   "spread": 14872.0,
+   "netSpread": 9726.4,
+   "minHour": 7,
+   "maxHour": 20,
+   "avg": 4775.0
+  },
+  {
+   "date": "2025-10-26",
+   "min": 10.0,
+   "max": 14952.63,
+   "spread": 14942.6,
+   "netSpread": 9796.7,
+   "minHour": 12,
+   "maxHour": 19,
+   "avg": 5102.2
+  },
+  {
+   "date": "2025-10-27",
+   "min": 72.0,
+   "max": 14902.82,
+   "spread": 14830.8,
+   "netSpread": 9692.4,
+   "minHour": 7,
+   "maxHour": 21,
+   "avg": 5439.9
+  },
+  {
+   "date": "2025-10-28",
+   "min": 250.0,
+   "max": 14897.86,
+   "spread": 14647.9,
+   "netSpread": 9510.2,
+   "minHour": 1,
+   "maxHour": 18,
+   "avg": 5785.4
+  },
+  {
+   "date": "2025-10-29",
+   "min": 79.0,
+   "max": 14905.66,
+   "spread": 14826.7,
+   "netSpread": 9687.8,
+   "minHour": 7,
+   "maxHour": 22,
+   "avg": 5567.5
+  },
+  {
+   "date": "2025-10-30",
+   "min": 19.0,
+   "max": 14901.45,
+   "spread": 14882.5,
+   "netSpread": 9744.2,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5671.4
+  },
+  {
+   "date": "2025-10-31",
+   "min": 3075.0,
+   "max": 15000.0,
+   "spread": 11925.0,
+   "netSpread": 6772.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 7688.7
+  },
+  {
+   "date": "2025-11-01",
+   "min": 20.0,
+   "max": 15000.0,
+   "spread": 14980.0,
+   "netSpread": 9827.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5142.8
+  },
+  {
+   "date": "2025-11-02",
+   "min": 72.0,
+   "max": 14901.05,
+   "spread": 14829.0,
+   "netSpread": 9690.9,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 5011.9
+  },
+  {
+   "date": "2025-11-03",
+   "min": 40.0,
+   "max": 14951.92,
+   "spread": 14911.9,
+   "netSpread": 9766.1,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6345.3
+  },
+  {
+   "date": "2025-11-04",
+   "min": 1002.0,
+   "max": 13000.0,
+   "spread": 11998.0,
+   "netSpread": 7145.0,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 5164.7
+  },
+  {
+   "date": "2025-11-05",
+   "min": 1000.0,
+   "max": 13391.0,
+   "spread": 12391.0,
+   "netSpread": 7479.4,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5443.5
+  },
+  {
+   "date": "2025-11-06",
+   "min": 801.0,
+   "max": 7000.0,
+   "spread": 6199.0,
+   "netSpread": 2246.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 4365.1
+  },
+  {
+   "date": "2025-11-07",
+   "min": 1376.0,
+   "max": 15000.0,
+   "spread": 13624.0,
+   "netSpread": 8471.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 6263.5
+  },
+  {
+   "date": "2025-11-08",
+   "min": 1178.0,
+   "max": 14903.32,
+   "spread": 13725.3,
+   "netSpread": 8586.8,
+   "minHour": 5,
+   "maxHour": 19,
+   "avg": 5969.7
+  },
+  {
+   "date": "2025-11-09",
+   "min": 4185.0,
+   "max": 15000.0,
+   "spread": 10815.0,
+   "netSpread": 5662.0,
+   "minHour": 5,
+   "maxHour": 19,
+   "avg": 7944.5
+  },
+  {
+   "date": "2025-11-10",
+   "min": 500.0,
+   "max": 15000.0,
+   "spread": 14500.0,
+   "netSpread": 9347.0,
+   "minHour": 2,
+   "maxHour": 18,
+   "avg": 7215.7
+  },
+  {
+   "date": "2025-11-11",
+   "min": 500.0,
+   "max": 15000.0,
+   "spread": 14500.0,
+   "netSpread": 9347.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 7513.6
+  },
+  {
+   "date": "2025-11-12",
+   "min": 500.0,
+   "max": 15000.0,
+   "spread": 14500.0,
+   "netSpread": 9347.0,
+   "minHour": 2,
+   "maxHour": 18,
+   "avg": 6949.4
+  },
+  {
+   "date": "2025-11-13",
+   "min": 498.0,
+   "max": 15000.0,
+   "spread": 14502.0,
+   "netSpread": 9349.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 6734.7
+  },
+  {
+   "date": "2025-11-14",
+   "min": 498.0,
+   "max": 14400.0,
+   "spread": 13902.0,
+   "netSpread": 8839.0,
+   "minHour": 4,
+   "maxHour": 22,
+   "avg": 6128.5
+  },
+  {
+   "date": "2025-11-15",
+   "min": 31.0,
+   "max": 14400.0,
+   "spread": 14369.0,
+   "netSpread": 9306.0,
+   "minHour": 5,
+   "maxHour": 22,
+   "avg": 4846.0
+  },
+  {
+   "date": "2025-11-16",
+   "min": 100.0,
+   "max": 14879.21,
+   "spread": 14779.2,
+   "netSpread": 9644.3,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 6048.1
+  },
+  {
+   "date": "2025-11-17",
+   "min": 69.0,
+   "max": 14901.43,
+   "spread": 14832.4,
+   "netSpread": 9694.2,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 6486.9
+  },
+  {
+   "date": "2025-11-18",
+   "min": 100.0,
+   "max": 15000.0,
+   "spread": 14900.0,
+   "netSpread": 9747.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 7211.6
+  },
+  {
+   "date": "2025-11-19",
+   "min": 1000.0,
+   "max": 15000.0,
+   "spread": 14000.0,
+   "netSpread": 8847.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 7548.2
+  },
+  {
+   "date": "2025-11-20",
+   "min": 5600.0,
+   "max": 15000.0,
+   "spread": 9400.0,
+   "netSpread": 4247.0,
+   "minHour": 1,
+   "maxHour": 18,
+   "avg": 8220.8
+  },
+  {
+   "date": "2025-11-21",
+   "min": 3200.0,
+   "max": 14899.51,
+   "spread": 11699.5,
+   "netSpread": 6561.6,
+   "minHour": 4,
+   "maxHour": 23,
+   "avg": 7673.4
+  },
+  {
+   "date": "2025-11-22",
+   "min": 3000.0,
+   "max": 14893.57,
+   "spread": 11893.6,
+   "netSpread": 6756.5,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 7144.3
+  },
+  {
+   "date": "2025-11-23",
+   "min": 500.0,
+   "max": 12000.0,
+   "spread": 11500.0,
+   "netSpread": 6797.0,
+   "minHour": 7,
+   "maxHour": 22,
+   "avg": 5804.9
+  },
+  {
+   "date": "2025-11-24",
+   "min": 100.0,
+   "max": 13765.0,
+   "spread": 13665.0,
+   "netSpread": 8697.2,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 6129.3
+  },
+  {
+   "date": "2025-11-25",
+   "min": 100.0,
+   "max": 14000.0,
+   "spread": 13900.0,
+   "netSpread": 8897.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 5829.0
+  },
+  {
+   "date": "2025-11-26",
+   "min": 72.0,
+   "max": 14380.0,
+   "spread": 14308.0,
+   "netSpread": 9248.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6118.7
+  },
+  {
+   "date": "2025-11-27",
+   "min": 125.0,
+   "max": 14904.77,
+   "spread": 14779.8,
+   "netSpread": 9641.1,
+   "minHour": 4,
+   "maxHour": 22,
+   "avg": 6314.1
+  },
+  {
+   "date": "2025-11-28",
+   "min": 1550.0,
+   "max": 14897.58,
+   "spread": 13347.6,
+   "netSpread": 8209.9,
+   "minHour": 4,
+   "maxHour": 22,
+   "avg": 7178.1
+  },
+  {
+   "date": "2025-11-29",
+   "min": 1962.0,
+   "max": 13000.0,
+   "spread": 11038.0,
+   "netSpread": 6185.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 6117.3
+  },
+  {
+   "date": "2025-11-30",
+   "min": 500.0,
+   "max": 14903.39,
+   "spread": 14403.4,
+   "netSpread": 9264.9,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 6772.9
+  },
+  {
+   "date": "2025-12-01",
+   "min": 500.0,
+   "max": 14785.0,
+   "spread": 14285.0,
+   "netSpread": 9164.2,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 7119.1
+  },
+  {
+   "date": "2025-12-02",
+   "min": 1000.0,
+   "max": 14156.0,
+   "spread": 13156.0,
+   "netSpread": 8129.6,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 6613.2
+  },
+  {
+   "date": "2025-12-03",
+   "min": 1777.0,
+   "max": 11500.0,
+   "spread": 9723.0,
+   "netSpread": 5095.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 6020.5
+  },
+  {
+   "date": "2025-12-04",
+   "min": 1000.0,
+   "max": 10000.0,
+   "spread": 9000.0,
+   "netSpread": 4597.0,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 5626.4
+  },
+  {
+   "date": "2025-12-05",
+   "min": 1000.0,
+   "max": 9000.0,
+   "spread": 8000.0,
+   "netSpread": 3747.0,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 5359.0
+  },
+  {
+   "date": "2025-12-06",
+   "min": 1500.0,
+   "max": 9874.0,
+   "spread": 8374.0,
+   "netSpread": 3989.9,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 5510.8
+  },
+  {
+   "date": "2025-12-07",
+   "min": 5600.0,
+   "max": 15000.0,
+   "spread": 9400.0,
+   "netSpread": 4247.0,
+   "minHour": 1,
+   "maxHour": 18,
+   "avg": 8220.8
+  },
+  {
+   "date": "2025-12-08",
+   "min": 5600.0,
+   "max": 15000.0,
+   "spread": 9400.0,
+   "netSpread": 4247.0,
+   "minHour": 1,
+   "maxHour": 18,
+   "avg": 8220.8
+  },
+  {
+   "date": "2025-12-09",
+   "min": 5600.0,
+   "max": 15000.0,
+   "spread": 9400.0,
+   "netSpread": 4247.0,
+   "minHour": 1,
+   "maxHour": 18,
+   "avg": 8220.8
+  },
+  {
+   "date": "2025-12-10",
+   "min": 3500.0,
+   "max": 15000.0,
+   "spread": 11500.0,
+   "netSpread": 6347.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 7807.9
+  },
+  {
+   "date": "2025-12-11",
+   "min": 4550.0,
+   "max": 15000.0,
+   "spread": 10450.0,
+   "netSpread": 5297.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 7844.3
+  },
+  {
+   "date": "2025-12-12",
+   "min": 4297.0,
+   "max": 14902.73,
+   "spread": 10605.7,
+   "netSpread": 5467.3,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 7786.9
+  },
+  {
+   "date": "2025-12-13",
+   "min": 4050.0,
+   "max": 15000.0,
+   "spread": 10950.0,
+   "netSpread": 5797.0,
+   "minHour": 6,
+   "maxHour": 23,
+   "avg": 7822.3
+  },
+  {
+   "date": "2025-12-14",
+   "min": 3450.0,
+   "max": 9350.0,
+   "spread": 5900.0,
+   "netSpread": 1594.5,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 5991.5
+  },
+  {
+   "date": "2025-12-15",
+   "min": 4264.0,
+   "max": 15000.0,
+   "spread": 10736.0,
+   "netSpread": 5583.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 7902.7
+  },
+  {
+   "date": "2025-12-16",
+   "min": 3000.0,
+   "max": 10910.0,
+   "spread": 7910.0,
+   "netSpread": 3370.5,
+   "minHour": 3,
+   "maxHour": 19,
+   "avg": 5932.5
+  },
+  {
+   "date": "2025-12-17",
+   "min": 2665.0,
+   "max": 10621.0,
+   "spread": 7956.0,
+   "netSpread": 3459.9,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6304.5
+  },
+  {
+   "date": "2025-12-18",
+   "min": 801.0,
+   "max": 11500.0,
+   "spread": 10699.0,
+   "netSpread": 6071.0,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 5767.6
+  },
+  {
+   "date": "2025-12-19",
+   "min": 1900.0,
+   "max": 14000.0,
+   "spread": 12100.0,
+   "netSpread": 7097.0,
+   "minHour": 4,
+   "maxHour": 20,
+   "avg": 6898.0
+  },
+  {
+   "date": "2025-12-20",
+   "min": 2000.0,
+   "max": 14000.0,
+   "spread": 12000.0,
+   "netSpread": 6997.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6711.6
+  },
+  {
+   "date": "2025-12-21",
+   "min": 700.0,
+   "max": 7450.0,
+   "spread": 6750.0,
+   "netSpread": 2729.5,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 4879.5
+  },
+  {
+   "date": "2025-12-22",
+   "min": 1000.0,
+   "max": 8000.0,
+   "spread": 7000.0,
+   "netSpread": 2897.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5235.4
+  },
+  {
+   "date": "2025-12-23",
+   "min": 1200.0,
+   "max": 8466.0,
+   "spread": 7266.0,
+   "netSpread": 3093.1,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 5474.7
+  },
+  {
+   "date": "2025-12-24",
+   "min": 5600.0,
+   "max": 15000.0,
+   "spread": 9400.0,
+   "netSpread": 4247.0,
+   "minHour": 1,
+   "maxHour": 18,
+   "avg": 8220.8
+  },
+  {
+   "date": "2025-12-25",
+   "min": 1500.0,
+   "max": 7150.0,
+   "spread": 5650.0,
+   "netSpread": 1674.5,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 4752.6
+  },
+  {
+   "date": "2025-12-26",
+   "min": 1000.0,
+   "max": 6138.0,
+   "spread": 5138.0,
+   "netSpread": 1314.3,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 4473.1
+  },
+  {
+   "date": "2025-12-27",
+   "min": 4297.0,
+   "max": 7450.0,
+   "spread": 3153.0,
+   "netSpread": -867.5,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 5767.6
+  },
+  {
+   "date": "2025-12-28",
+   "min": 4250.0,
+   "max": 14810.0,
+   "spread": 10560.0,
+   "netSpread": 5435.5,
+   "minHour": 8,
+   "maxHour": 21,
+   "avg": 7465.8
+  },
+  {
+   "date": "2025-12-29",
+   "min": 3100.0,
+   "max": 14892.22,
+   "spread": 11792.2,
+   "netSpread": 6655.4,
+   "minHour": 1,
+   "maxHour": 21,
+   "avg": 7368.9
+  },
+  {
+   "date": "2025-12-30",
+   "min": 4297.0,
+   "max": 13000.0,
+   "spread": 8703.0,
+   "netSpread": 3850.0,
+   "minHour": 6,
+   "maxHour": 18,
+   "avg": 7213.6
+  },
+  {
+   "date": "2025-12-31",
+   "min": 5267.0,
+   "max": 15000.0,
+   "spread": 9733.0,
+   "netSpread": 4580.0,
+   "minHour": 6,
+   "maxHour": 18,
+   "avg": 7584.2
+  },
+  {
+   "date": "2026-01-01",
+   "min": 2300.0,
+   "max": 8000.0,
+   "spread": 5700.0,
+   "netSpread": 1597.0,
+   "minHour": 8,
+   "maxHour": 18,
+   "avg": 4956.7
+  },
+  {
+   "date": "2026-01-02",
+   "min": 4443.0,
+   "max": 12898.0,
+   "spread": 8455.0,
+   "netSpread": 3617.3,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 6844.1
+  },
+  {
+   "date": "2026-01-03",
+   "min": 3858.76,
+   "max": 10450.0,
+   "spread": 6591.2,
+   "netSpread": 2120.7,
+   "minHour": 8,
+   "maxHour": 19,
+   "avg": 6117.5
+  },
+  {
+   "date": "2026-01-04",
+   "min": 3050.0,
+   "max": 13500.0,
+   "spread": 10450.0,
+   "netSpread": 5522.0,
+   "minHour": 8,
+   "maxHour": 19,
+   "avg": 6189.2
+  },
+  {
+   "date": "2026-01-05",
+   "min": 5267.0,
+   "max": 12500.0,
+   "spread": 7233.0,
+   "netSpread": 2455.0,
+   "minHour": 2,
+   "maxHour": 18,
+   "avg": 6938.8
+  },
+  {
+   "date": "2026-01-06",
+   "min": 4777.0,
+   "max": 10200.0,
+   "spread": 5423.0,
+   "netSpread": 990.0,
+   "minHour": 6,
+   "maxHour": 19,
+   "avg": 6318.9
+  },
+  {
+   "date": "2026-01-07",
+   "min": 4297.0,
+   "max": 12129.0,
+   "spread": 7832.0,
+   "netSpread": 3109.6,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 6683.1
+  },
+  {
+   "date": "2026-01-08",
+   "min": 4799.0,
+   "max": 10600.0,
+   "spread": 5801.0,
+   "netSpread": 1308.0,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 6364.4
+  },
+  {
+   "date": "2026-01-09",
+   "min": 4297.0,
+   "max": 12700.0,
+   "spread": 8403.0,
+   "netSpread": 3595.0,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 6777.1
+  },
+  {
+   "date": "2026-01-10",
+   "min": 5500.0,
+   "max": 14948.55,
+   "spread": 9448.5,
+   "netSpread": 4303.3,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 7991.2
+  },
+  {
+   "date": "2026-01-11",
+   "min": 5119.0,
+   "max": 14950.44,
+   "spread": 9831.4,
+   "netSpread": 4685.9,
+   "minHour": 8,
+   "maxHour": 19,
+   "avg": 8088.9
+  },
+  {
+   "date": "2026-01-12",
+   "min": 5200.0,
+   "max": 14889.0,
+   "spread": 9689.0,
+   "netSpread": 4552.6,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 8052.2
+  },
+  {
+   "date": "2026-01-13",
+   "min": 5450.0,
+   "max": 15000.0,
+   "spread": 9550.0,
+   "netSpread": 4397.0,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 8197.9
+  },
+  {
+   "date": "2026-01-14",
+   "min": 5550.0,
+   "max": 15000.0,
+   "spread": 9450.0,
+   "netSpread": 4297.0,
+   "minHour": 4,
+   "maxHour": 18,
+   "avg": 8218.4
+  },
+  {
+   "date": "2026-01-15",
+   "min": 5600.0,
+   "max": 15000.0,
+   "spread": 9400.0,
+   "netSpread": 4247.0,
+   "minHour": 1,
+   "maxHour": 18,
+   "avg": 8220.8
+  },
+  {
+   "date": "2026-01-16",
+   "min": 5550.0,
+   "max": 15000.0,
+   "spread": 9450.0,
+   "netSpread": 4297.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 8058.6
+  },
+  {
+   "date": "2026-01-17",
+   "min": 5300.0,
+   "max": 10600.0,
+   "spread": 5300.0,
+   "netSpread": 807.0,
+   "minHour": 8,
+   "maxHour": 21,
+   "avg": 6853.1
+  },
+  {
+   "date": "2026-01-18",
+   "min": 3678.0,
+   "max": 10500.0,
+   "spread": 6822.0,
+   "netSpread": 2344.0,
+   "minHour": 5,
+   "maxHour": 20,
+   "avg": 6103.5
+  },
+  {
+   "date": "2026-01-19",
+   "min": 5550.0,
+   "max": 15000.0,
+   "spread": 9450.0,
+   "netSpread": 4297.0,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 8591.7
+  },
+  {
+   "date": "2026-01-20",
+   "min": 5550.0,
+   "max": 15000.0,
+   "spread": 9450.0,
+   "netSpread": 4297.0,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 10574.8
+  },
+  {
+   "date": "2026-01-21",
+   "min": 5400.0,
+   "max": 15000.0,
+   "spread": 9600.0,
+   "netSpread": 4447.0,
+   "minHour": 13,
+   "maxHour": 17,
+   "avg": 9734.7
+  },
+  {
+   "date": "2026-01-22",
+   "min": 8361.0,
+   "max": 15000.0,
+   "spread": 6639.0,
+   "netSpread": 1486.0,
+   "minHour": 4,
+   "maxHour": 1,
+   "avg": 13233.0
+  },
+  {
+   "date": "2026-01-23",
+   "min": 5550.0,
+   "max": 15000.0,
+   "spread": 9450.0,
+   "netSpread": 4297.0,
+   "minHour": 4,
+   "maxHour": 1,
+   "avg": 12536.0
+  },
+  {
+   "date": "2026-01-24",
+   "min": 5490.0,
+   "max": 15000.0,
+   "spread": 9510.0,
+   "netSpread": 4357.0,
+   "minHour": 7,
+   "maxHour": 11,
+   "avg": 10738.5
+  },
+  {
+   "date": "2026-01-25",
+   "min": 5250.0,
+   "max": 15000.0,
+   "spread": 9750.0,
+   "netSpread": 4597.0,
+   "minHour": 8,
+   "maxHour": 11,
+   "avg": 9560.5
+  },
+  {
+   "date": "2026-01-26",
+   "min": 3000.0,
+   "max": 13800.0,
+   "spread": 10800.0,
+   "netSpread": 5827.0,
+   "minHour": 1,
+   "maxHour": 12,
+   "avg": 7309.2
+  },
+  {
+   "date": "2026-01-27",
+   "min": 5450.0,
+   "max": 15000.0,
+   "spread": 9550.0,
+   "netSpread": 4397.0,
+   "minHour": 3,
+   "maxHour": 9,
+   "avg": 11336.2
+  },
+  {
+   "date": "2026-01-28",
+   "min": 5450.0,
+   "max": 14467.0,
+   "spread": 9017.0,
+   "netSpread": 3943.9,
+   "minHour": 3,
+   "maxHour": 9,
+   "avg": 9340.7
+  },
+  {
+   "date": "2026-01-29",
+   "min": 5450.0,
+   "max": 13200.0,
+   "spread": 7750.0,
+   "netSpread": 2867.0,
+   "minHour": 4,
+   "maxHour": 11,
+   "avg": 9099.2
+  },
+  {
+   "date": "2026-01-30",
+   "min": 5449.99,
+   "max": 14500.0,
+   "spread": 9050.0,
+   "netSpread": 3972.0,
+   "minHour": 4,
+   "maxHour": 17,
+   "avg": 9140.4
+  },
+  {
+   "date": "2026-01-31",
+   "min": 4990.0,
+   "max": 15000.0,
+   "spread": 10010.0,
+   "netSpread": 4857.0,
+   "minHour": 8,
+   "maxHour": 1,
+   "avg": 7681.7
+  },
+  {
+   "date": "2026-02-01",
+   "min": 6500.0,
+   "max": 15000.0,
+   "spread": 8500.0,
+   "netSpread": 3347.0,
+   "minHour": 13,
+   "maxHour": 1,
+   "avg": 11822.3
+  },
+  {
+   "date": "2026-02-02",
+   "min": 5400.0,
+   "max": 14973.96,
+   "spread": 9574.0,
+   "netSpread": 4424.9,
+   "minHour": 3,
+   "maxHour": 9,
+   "avg": 9003.4
+  },
+  {
+   "date": "2026-02-03",
+   "min": 5000.0,
+   "max": 15000.0,
+   "spread": 10000.0,
+   "netSpread": 4847.0,
+   "minHour": 13,
+   "maxHour": 17,
+   "avg": 9257.5
+  },
+  {
+   "date": "2026-02-04",
+   "min": 5440.0,
+   "max": 15000.0,
+   "spread": 9560.0,
+   "netSpread": 4407.0,
+   "minHour": 5,
+   "maxHour": 17,
+   "avg": 10554.6
+  },
+  {
+   "date": "2026-02-05",
+   "min": 5400.0,
+   "max": 14997.22,
+   "spread": 9597.2,
+   "netSpread": 4444.6,
+   "minHour": 4,
+   "maxHour": 10,
+   "avg": 11078.7
+  },
+  {
+   "date": "2026-02-06",
+   "min": 5400.0,
+   "max": 15000.0,
+   "spread": 9600.0,
+   "netSpread": 4447.0,
+   "minHour": 4,
+   "maxHour": 17,
+   "avg": 11627.4
+  },
+  {
+   "date": "2026-02-07",
+   "min": 5600.0,
+   "max": 14996.55,
+   "spread": 9396.5,
+   "netSpread": 4244.1,
+   "minHour": 24,
+   "maxHour": 10,
+   "avg": 13457.6
+  },
+  {
+   "date": "2026-02-08",
+   "min": 14000.0,
+   "max": 15000.0,
+   "spread": 1000.0,
+   "netSpread": -4153.0,
+   "minHour": 2,
+   "maxHour": 9,
+   "avg": 14738.2
+  },
+  {
+   "date": "2026-02-09",
+   "min": 15000.0,
+   "max": 15000.0,
+   "spread": 0.0,
+   "netSpread": -5153.0,
+   "minHour": 1,
+   "maxHour": 1,
+   "avg": 15000.0
+  },
+  {
+   "date": "2026-02-10",
+   "min": 6810.0,
+   "max": 15000.0,
+   "spread": 8190.0,
+   "netSpread": 3037.0,
+   "minHour": 13,
+   "maxHour": 1,
+   "avg": 13209.6
+  },
+  {
+   "date": "2026-02-11",
+   "min": 5420.0,
+   "max": 14839.0,
+   "spread": 9419.0,
+   "netSpread": 4290.1,
+   "minHour": 3,
+   "maxHour": 18,
+   "avg": 8628.0
+  },
+  {
+   "date": "2026-02-12",
+   "min": 4999.0,
+   "max": 7800.0,
+   "spread": 2801.0,
+   "netSpread": -1272.0,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 6113.8
+  },
+  {
+   "date": "2026-02-13",
+   "min": 5800.0,
+   "max": 15000.0,
+   "spread": 9200.0,
+   "netSpread": 4047.0,
+   "minHour": 3,
+   "maxHour": 8,
+   "avg": 10292.8
+  },
+  {
+   "date": "2026-02-14",
+   "min": 3800.0,
+   "max": 13800.0,
+   "spread": 10000.0,
+   "netSpread": 5027.0,
+   "minHour": 8,
+   "maxHour": 19,
+   "avg": 6760.5
+  },
+  {
+   "date": "2026-02-15",
+   "min": 3500.0,
+   "max": 7200.0,
+   "spread": 3700.0,
+   "netSpread": -283.0,
+   "minHour": 8,
+   "maxHour": 18,
+   "avg": 5591.2
+  },
+  {
+   "date": "2026-02-16",
+   "min": 4200.0,
+   "max": 14500.0,
+   "spread": 10300.0,
+   "netSpread": 5222.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 7445.7
+  },
+  {
+   "date": "2026-02-17",
+   "min": 5800.0,
+   "max": 15000.0,
+   "spread": 9200.0,
+   "netSpread": 4047.0,
+   "minHour": 1,
+   "maxHour": 16,
+   "avg": 9296.0
+  },
+  {
+   "date": "2026-02-18",
+   "min": 4940.0,
+   "max": 15000.0,
+   "spread": 10060.0,
+   "netSpread": 4907.0,
+   "minHour": 4,
+   "maxHour": 9,
+   "avg": 10395.9
+  },
+  {
+   "date": "2026-02-19",
+   "min": 4330.0,
+   "max": 15000.0,
+   "spread": 10670.0,
+   "netSpread": 5517.0,
+   "minHour": 12,
+   "maxHour": 18,
+   "avg": 7933.5
+  },
+  {
+   "date": "2026-02-20",
+   "min": 4500.0,
+   "max": 15000.0,
+   "spread": 10500.0,
+   "netSpread": 5347.0,
+   "minHour": 1,
+   "maxHour": 17,
+   "avg": 8402.6
+  },
+  {
+   "date": "2026-02-21",
+   "min": 3300.0,
+   "max": 14901.72,
+   "spread": 11601.7,
+   "netSpread": 6463.5,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 5989.7
+  },
+  {
+   "date": "2026-02-22",
+   "min": 3300.0,
+   "max": 14500.0,
+   "spread": 11200.0,
+   "netSpread": 6122.0,
+   "minHour": 5,
+   "maxHour": 17,
+   "avg": 6494.6
+  },
+  {
+   "date": "2026-02-23",
+   "min": 3600.0,
+   "max": 14941.34,
+   "spread": 11341.3,
+   "netSpread": 6197.1,
+   "minHour": 4,
+   "maxHour": 17,
+   "avg": 8828.5
+  },
+  {
+   "date": "2026-02-24",
+   "min": 3500.0,
+   "max": 14994.67,
+   "spread": 11494.7,
+   "netSpread": 6342.5,
+   "minHour": 4,
+   "maxHour": 9,
+   "avg": 12343.7
+  },
+  {
+   "date": "2026-02-25",
+   "min": 5214.0,
+   "max": 14974.71,
+   "spread": 9760.7,
+   "netSpread": 4611.5,
+   "minHour": 5,
+   "maxHour": 10,
+   "avg": 10582.4
+  },
+  {
+   "date": "2026-02-26",
+   "min": 3100.0,
+   "max": 14832.7,
+   "spread": 11732.7,
+   "netSpread": 6604.8,
+   "minHour": 4,
+   "maxHour": 8,
+   "avg": 8247.9
+  },
+  {
+   "date": "2026-02-27",
+   "min": 3950.0,
+   "max": 15000.0,
+   "spread": 11050.0,
+   "netSpread": 5897.0,
+   "minHour": 13,
+   "maxHour": 1,
+   "avg": 12129.4
+  },
+  {
+   "date": "2026-02-28",
+   "min": 2499.0,
+   "max": 14944.36,
+   "spread": 12445.4,
+   "netSpread": 7300.7,
+   "minHour": 12,
+   "maxHour": 1,
+   "avg": 8774.6
+  },
+  {
+   "date": "2026-03-01",
+   "min": 1950.0,
+   "max": 9000.0,
+   "spread": 7050.0,
+   "netSpread": 2797.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 5106.8
+  },
+  {
+   "date": "2026-03-02",
+   "min": 2349.0,
+   "max": 14299.0,
+   "spread": 11950.0,
+   "netSpread": 6902.1,
+   "minHour": 14,
+   "maxHour": 18,
+   "avg": 7432.3
+  },
+  {
+   "date": "2026-03-03",
+   "min": 2490.0,
+   "max": 9000.0,
+   "spread": 6510.0,
+   "netSpread": 2257.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4792.6
+  },
+  {
+   "date": "2026-03-04",
+   "min": 1500.0,
+   "max": 10999.0,
+   "spread": 9499.0,
+   "netSpread": 4946.1,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 5450.8
+  },
+  {
+   "date": "2026-03-05",
+   "min": 850.0,
+   "max": 13499.0,
+   "spread": 12649.0,
+   "netSpread": 7721.1,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 5538.7
+  },
+  {
+   "date": "2026-03-06",
+   "min": 999.0,
+   "max": 13000.0,
+   "spread": 12001.0,
+   "netSpread": 7148.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 5603.2
+  },
+  {
+   "date": "2026-03-07",
+   "min": 198.0,
+   "max": 14577.0,
+   "spread": 14379.0,
+   "netSpread": 9289.4,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 6876.9
+  },
+  {
+   "date": "2026-03-08",
+   "min": 1500.0,
+   "max": 15000.0,
+   "spread": 13500.0,
+   "netSpread": 8347.0,
+   "minHour": 13,
+   "maxHour": 1,
+   "avg": 7687.9
+  },
+  {
+   "date": "2026-03-09",
+   "min": 1250.0,
+   "max": 15000.0,
+   "spread": 13750.0,
+   "netSpread": 8597.0,
+   "minHour": 14,
+   "maxHour": 19,
+   "avg": 8396.1
+  },
+  {
+   "date": "2026-03-10",
+   "min": 1000.0,
+   "max": 14587.0,
+   "spread": 13587.0,
+   "netSpread": 8495.9,
+   "minHour": 15,
+   "maxHour": 20,
+   "avg": 6695.8
+  },
+  {
+   "date": "2026-03-11",
+   "min": 1200.0,
+   "max": 14897.0,
+   "spread": 13697.0,
+   "netSpread": 8559.4,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 7199.1
+  },
+  {
+   "date": "2026-03-12",
+   "min": 477.0,
+   "max": 15000.0,
+   "spread": 14523.0,
+   "netSpread": 9370.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 7396.0
+  },
+  {
+   "date": "2026-03-13",
+   "min": 300.0,
+   "max": 15000.0,
+   "spread": 14700.0,
+   "netSpread": 9547.0,
+   "minHour": 14,
+   "maxHour": 19,
+   "avg": 5476.0
+  },
+  {
+   "date": "2026-03-14",
+   "min": 373.5,
+   "max": 14498.0,
+   "spread": 14124.5,
+   "netSpread": 9046.8,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 5657.7
+  },
+  {
+   "date": "2026-03-15",
+   "min": 894.0,
+   "max": 14944.24,
+   "spread": 14050.2,
+   "netSpread": 8905.6,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 5427.3
+  },
+  {
+   "date": "2026-03-16",
+   "min": 1400.0,
+   "max": 14990.0,
+   "spread": 13590.0,
+   "netSpread": 8438.5,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 6933.5
+  },
+  {
+   "date": "2026-03-17",
+   "min": 4000.0,
+   "max": 15000.0,
+   "spread": 11000.0,
+   "netSpread": 5847.0,
+   "minHour": 11,
+   "maxHour": 7,
+   "avg": 9391.1
+  },
+  {
+   "date": "2026-03-18",
+   "min": 2560.0,
+   "max": 14990.0,
+   "spread": 12430.0,
+   "netSpread": 7278.5,
+   "minHour": 14,
+   "maxHour": 20,
+   "avg": 7247.7
+  },
+  {
+   "date": "2026-03-19",
+   "min": 3795.0,
+   "max": 14990.0,
+   "spread": 11195.0,
+   "netSpread": 6043.5,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 8601.0
+  },
+  {
+   "date": "2026-03-20",
+   "min": 1999.0,
+   "max": 14942.5,
+   "spread": 12943.5,
+   "netSpread": 7799.1,
+   "minHour": 13,
+   "maxHour": 1,
+   "avg": 8646.1
+  },
+  {
+   "date": "2026-03-21",
+   "min": 1549.0,
+   "max": 14999.0,
+   "spread": 13450.0,
+   "netSpread": 8297.1,
+   "minHour": 14,
+   "maxHour": 19,
+   "avg": 7480.4
+  },
+  {
+   "date": "2026-03-22",
+   "min": 846.0,
+   "max": 14978.01,
+   "spread": 14132.0,
+   "netSpread": 8982.3,
+   "minHour": 14,
+   "maxHour": 19,
+   "avg": 7186.9
+  },
+  {
+   "date": "2026-03-23",
+   "min": 4300.0,
+   "max": 15000.0,
+   "spread": 10700.0,
+   "netSpread": 5547.0,
+   "minHour": 13,
+   "maxHour": 18,
+   "avg": 10780.2
+  },
+  {
+   "date": "2026-03-24",
+   "min": 1600.0,
+   "max": 15000.0,
+   "spread": 13400.0,
+   "netSpread": 8247.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 8058.3
+  },
+  {
+   "date": "2026-03-25",
+   "min": 1000.01,
+   "max": 14972.1,
+   "spread": 13972.1,
+   "netSpread": 8823.3,
+   "minHour": 13,
+   "maxHour": 17,
+   "avg": 6639.5
+  },
+  {
+   "date": "2026-03-26",
+   "min": 1700.0,
+   "max": 15000.0,
+   "spread": 13300.0,
+   "netSpread": 8147.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 7966.7
+  },
+  {
+   "date": "2026-03-27",
+   "min": 1700.0,
+   "max": 12799.0,
+   "spread": 11099.0,
+   "netSpread": 6276.1,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 6875.1
+  },
+  {
+   "date": "2026-03-28",
+   "min": 1785.0,
+   "max": 14975.33,
+   "spread": 13190.3,
+   "netSpread": 8041.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 6645.8
+  },
+  {
+   "date": "2026-03-29",
+   "min": 1740.0,
+   "max": 14977.61,
+   "spread": 13237.6,
+   "netSpread": 8088.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 6504.3
+  },
+  {
+   "date": "2026-03-30",
+   "min": 3100.0,
+   "max": 14500.0,
+   "spread": 11400.0,
+   "netSpread": 6322.0,
+   "minHour": 3,
+   "maxHour": 22,
+   "avg": 7612.2
+  },
+  {
+   "date": "2026-03-31",
+   "min": 4300.0,
+   "max": 12966.96,
+   "spread": 8667.0,
+   "netSpread": 3818.9,
+   "minHour": 3,
+   "maxHour": 9,
+   "avg": 8011.5
+  },
+  {
+   "date": "2026-04-01",
+   "min": 2600.0,
+   "max": 12999.0,
+   "spread": 10399.0,
+   "netSpread": 5546.1,
+   "minHour": 3,
+   "maxHour": 21,
+   "avg": 6029.5
+  },
+  {
+   "date": "2026-04-02",
+   "min": 500.0,
+   "max": 10900.0,
+   "spread": 10400.0,
+   "netSpread": 5862.0,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 4896.6
+  },
+  {
+   "date": "2026-04-03",
+   "min": 2000.0,
+   "max": 9800.0,
+   "spread": 7800.0,
+   "netSpread": 3427.0,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 5042.0
+  },
+  {
+   "date": "2026-04-04",
+   "min": 11.0,
+   "max": 8336.0,
+   "spread": 8325.0,
+   "netSpread": 4171.6,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 3234.2
+  },
+  {
+   "date": "2026-04-05",
+   "min": 10.0,
+   "max": 7502.4,
+   "spread": 7492.4,
+   "netSpread": 3464.0,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 2255.5
+  },
+  {
+   "date": "2026-04-06",
+   "min": 10.0,
+   "max": 8383.0,
+   "spread": 8373.0,
+   "netSpread": 4212.6,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 2623.9
+  },
+  {
+   "date": "2026-04-07",
+   "min": 599.0,
+   "max": 15000.0,
+   "spread": 14401.0,
+   "netSpread": 9248.0,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 5873.3
+  },
+  {
+   "date": "2026-04-08",
+   "min": 434.0,
+   "max": 9800.0,
+   "spread": 9366.0,
+   "netSpread": 4993.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 3780.4
+  },
+  {
+   "date": "2026-04-09",
+   "min": 666.0,
+   "max": 11087.0,
+   "spread": 10421.0,
+   "netSpread": 5854.9,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 4875.5
+  },
+  {
+   "date": "2026-04-10",
+   "min": 2500.0,
+   "max": 14899.0,
+   "spread": 12399.0,
+   "netSpread": 7261.1,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 6970.8
+  },
+  {
+   "date": "2026-04-11",
+   "min": 1313.0,
+   "max": 12000.0,
+   "spread": 10687.0,
+   "netSpread": 5984.0,
+   "minHour": 16,
+   "maxHour": 20,
+   "avg": 5668.6
+  },
+  {
+   "date": "2026-04-12",
+   "min": 10.0,
+   "max": 7321.6,
+   "spread": 7311.6,
+   "netSpread": 3310.4,
+   "minHour": 11,
+   "maxHour": 23,
+   "avg": 3351.4
+  },
+  {
+   "date": "2026-04-13",
+   "min": 10.0,
+   "max": 10042.0,
+   "spread": 10032.0,
+   "netSpread": 5622.7,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4381.2
+  },
+  {
+   "date": "2026-04-14",
+   "min": 11.0,
+   "max": 13767.0,
+   "spread": 13756.0,
+   "netSpread": 8787.9,
+   "minHour": 16,
+   "maxHour": 21,
+   "avg": 5312.5
+  },
+  {
+   "date": "2026-04-15",
+   "min": 978.0,
+   "max": 14977.21,
+   "spread": 13999.2,
+   "netSpread": 8849.6,
+   "minHour": 13,
+   "maxHour": 21,
+   "avg": 6895.2
+  },
+  {
+   "date": "2026-04-16",
+   "min": 3687.0,
+   "max": 14949.7,
+   "spread": 11262.7,
+   "netSpread": 6117.2,
+   "minHour": 16,
+   "maxHour": 21,
+   "avg": 6927.6
+  },
+  {
+   "date": "2026-04-17",
+   "min": 525.0,
+   "max": 14976.03,
+   "spread": 14451.0,
+   "netSpread": 9301.6,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 5981.0
+  },
+  {
+   "date": "2026-04-18",
+   "min": 10.0,
+   "max": 13999.0,
+   "spread": 13989.0,
+   "netSpread": 8986.1,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 5318.5
+  },
+  {
+   "date": "2026-04-19",
+   "min": 80.0,
+   "max": 12500.0,
+   "spread": 12420.0,
+   "netSpread": 7642.0,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 4524.9
+  },
+  {
+   "date": "2026-04-20",
+   "min": 2529.03,
+   "max": 14974.8,
+   "spread": 12445.8,
+   "netSpread": 7296.5,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 7145.8
+  },
+  {
+   "date": "2026-04-21",
+   "min": 943.0,
+   "max": 14976.26,
+   "spread": 14033.3,
+   "netSpread": 8883.8,
+   "minHour": 14,
+   "maxHour": 20,
+   "avg": 6309.7
+  },
+  {
+   "date": "2026-04-22",
+   "min": 799.0,
+   "max": 14979.75,
+   "spread": 14180.8,
+   "netSpread": 9030.8,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 6553.1
+  },
+  {
+   "date": "2026-04-23",
+   "min": 30.0,
+   "max": 14973.45,
+   "spread": 14943.5,
+   "netSpread": 9794.4,
+   "minHour": 13,
+   "maxHour": 23,
+   "avg": 5827.7
+  },
+  {
+   "date": "2026-04-24",
+   "min": 80.0,
+   "max": 14977.83,
+   "spread": 14897.8,
+   "netSpread": 9748.2,
+   "minHour": 14,
+   "maxHour": 22,
+   "avg": 6338.3
+  },
+  {
+   "date": "2026-04-25",
+   "min": 10.0,
+   "max": 14974.92,
+   "spread": 14964.9,
+   "netSpread": 9815.7,
+   "minHour": 12,
+   "maxHour": 19,
+   "avg": 5781.4
+  },
+  {
+   "date": "2026-04-26",
+   "min": 10.0,
+   "max": 13500.0,
+   "spread": 13490.0,
+   "netSpread": 8562.0,
+   "minHour": 12,
+   "maxHour": 23,
+   "avg": 4364.6
+  },
+  {
+   "date": "2026-04-27",
+   "min": 10.0,
+   "max": 15000.0,
+   "spread": 14990.0,
+   "netSpread": 9837.0,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 6088.3
+  },
+  {
+   "date": "2026-04-28",
+   "min": 10.0,
+   "max": 15000.0,
+   "spread": 14990.0,
+   "netSpread": 9837.0,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 6291.9
+  },
+  {
+   "date": "2026-04-29",
+   "min": 499.0,
+   "max": 15000.0,
+   "spread": 14501.0,
+   "netSpread": 9348.0,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 6850.2
+  },
+  {
+   "date": "2026-04-30",
+   "min": 10.0,
+   "max": 14976.59,
+   "spread": 14966.6,
+   "netSpread": 9817.1,
+   "minHour": 13,
+   "maxHour": 23,
+   "avg": 6245.5
+  },
+  {
+   "date": "2026-05-01",
+   "min": 10.0,
+   "max": 12500.0,
+   "spread": 12490.0,
+   "netSpread": 7712.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 3889.4
+  },
+  {
+   "date": "2026-05-02",
+   "min": 10.0,
+   "max": 11859.0,
+   "spread": 11849.0,
+   "netSpread": 7167.1,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4683.7
+  },
+  {
+   "date": "2026-05-03",
+   "min": 10.0,
+   "max": 9656.0,
+   "spread": 9646.0,
+   "netSpread": 5294.6,
+   "minHour": 10,
+   "maxHour": 22,
+   "avg": 3523.6
+  },
+  {
+   "date": "2026-05-04",
+   "min": 10.0,
+   "max": 13898.0,
+   "spread": 13888.0,
+   "netSpread": 8900.3,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4488.7
+  },
+  {
+   "date": "2026-05-05",
+   "min": 10.0,
+   "max": 11000.0,
+   "spread": 10990.0,
+   "netSpread": 6437.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 3842.2
+  },
+  {
+   "date": "2026-05-06",
+   "min": 10.0,
+   "max": 11800.0,
+   "spread": 11790.0,
+   "netSpread": 7117.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 3691.5
+  },
+  {
+   "date": "2026-05-07",
+   "min": 10.0,
+   "max": 11200.0,
+   "spread": 11190.0,
+   "netSpread": 6607.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 3676.8
+  },
+  {
+   "date": "2026-05-08",
+   "min": 10.0,
+   "max": 11200.0,
+   "spread": 11190.0,
+   "netSpread": 6607.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4047.1
+  },
+  {
+   "date": "2026-05-09",
+   "min": 10.0,
+   "max": 10999.0,
+   "spread": 10989.0,
+   "netSpread": 6436.1,
+   "minHour": 10,
+   "maxHour": 22,
+   "avg": 3482.8
+  },
+  {
+   "date": "2026-05-10",
+   "min": 10.0,
+   "max": 14000.0,
+   "spread": 13990.0,
+   "netSpread": 8987.0,
+   "minHour": 12,
+   "maxHour": 1,
+   "avg": 4201.9
+  },
+  {
+   "date": "2026-05-11",
+   "min": 15.0,
+   "max": 11898.0,
+   "spread": 11883.0,
+   "netSpread": 7195.3,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 5229.7
+  },
+  {
+   "date": "2026-05-12",
+   "min": 998.0,
+   "max": 11890.0,
+   "spread": 10892.0,
+   "netSpread": 6205.5,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5400.3
+  },
+  {
+   "date": "2026-05-13",
+   "min": 4478.0,
+   "max": 13300.0,
+   "spread": 8822.0,
+   "netSpread": 3924.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 7785.2
+  },
+  {
+   "date": "2026-05-14",
+   "min": 10.0,
+   "max": 15000.0,
+   "spread": 14990.0,
+   "netSpread": 9837.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4143.5
+  },
+  {
+   "date": "2026-05-15",
+   "min": 2500.0,
+   "max": 12747.0,
+   "spread": 10247.0,
+   "netSpread": 5431.9,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5913.5
+  },
+  {
+   "date": "2026-05-16",
+   "min": 10.0,
+   "max": 8600.0,
+   "spread": 8590.0,
+   "netSpread": 4397.0,
+   "minHour": 10,
+   "maxHour": 22,
+   "avg": 4384.6
+  },
+  {
+   "date": "2026-05-17",
+   "min": 10.0,
+   "max": 9277.0,
+   "spread": 9267.0,
+   "netSpread": 4972.4,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4290.0
+  },
+  {
+   "date": "2026-05-18",
+   "min": 3550.0,
+   "max": 14343.0,
+   "spread": 10793.0,
+   "netSpread": 5738.5,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 7577.7
+  },
+  {
+   "date": "2026-05-19",
+   "min": 3899.0,
+   "max": 13577.53,
+   "spread": 9678.5,
+   "netSpread": 4738.9,
+   "minHour": 14,
+   "maxHour": 1,
+   "avg": 7310.0
+  },
+  {
+   "date": "2026-05-20",
+   "min": 1950.0,
+   "max": 12500.0,
+   "spread": 10550.0,
+   "netSpread": 5772.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 6024.1
+  },
+  {
+   "date": "2026-05-21",
+   "min": 500.0,
+   "max": 10970.0,
+   "spread": 10470.0,
+   "netSpread": 5921.5,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5143.1
+  },
+  {
+   "date": "2026-05-22",
+   "min": 975.0,
+   "max": 14551.0,
+   "spread": 13576.0,
+   "netSpread": 8490.4,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 6219.3
+  },
+  {
+   "date": "2026-05-23",
+   "min": 10.0,
+   "max": 14999.5,
+   "spread": 14989.5,
+   "netSpread": 9836.6,
+   "minHour": 11,
+   "maxHour": 1,
+   "avg": 5018.5
+  },
+  {
+   "date": "2026-05-24",
+   "min": 10.0,
+   "max": 8500.0,
+   "spread": 8490.0,
+   "netSpread": 4312.0,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4153.6
+  },
+  {
+   "date": "2026-05-25",
+   "min": 899.0,
+   "max": 13967.0,
+   "spread": 13068.0,
+   "netSpread": 8069.9,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 5240.4
+  },
+  {
+   "date": "2026-05-26",
+   "min": 658.0,
+   "max": 14973.87,
+   "spread": 14315.9,
+   "netSpread": 9166.8,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5685.1
+  },
+  {
+   "date": "2026-05-27",
+   "min": 115.0,
+   "max": 15000.0,
+   "spread": 14885.0,
+   "netSpread": 9732.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5966.8
+  },
+  {
+   "date": "2026-05-28",
+   "min": 10.0,
+   "max": 15000.0,
+   "spread": 14990.0,
+   "netSpread": 9837.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 6133.7
+  },
+  {
+   "date": "2026-05-29",
+   "min": 100.0,
+   "max": 14000.0,
+   "spread": 13900.0,
+   "netSpread": 8897.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5500.0
+  },
+  {
+   "date": "2026-05-30",
+   "min": 99.0,
+   "max": 12000.0,
+   "spread": 11901.0,
+   "netSpread": 7198.0,
+   "minHour": 16,
+   "maxHour": 23,
+   "avg": 5316.6
+  },
+  {
+   "date": "2026-05-31",
+   "min": 499.0,
+   "max": 9604.0,
+   "spread": 9105.0,
+   "netSpread": 4761.4,
+   "minHour": 15,
+   "maxHour": 23,
+   "avg": 5167.0
+  },
+  {
+   "date": "2026-06-01",
+   "min": 2850.0,
+   "max": 13618.14,
+   "spread": 10768.1,
+   "netSpread": 5822.4,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5332.5
+  },
+  {
+   "date": "2026-06-02",
+   "min": 2000.0,
+   "max": 8989.0,
+   "spread": 6989.0,
+   "netSpread": 2737.6,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4490.4
+  },
+  {
+   "date": "2026-06-03",
+   "min": 1789.0,
+   "max": 8300.0,
+   "spread": 6511.0,
+   "netSpread": 2363.0,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 4317.6
+  },
+  {
+   "date": "2026-06-04",
+   "min": 10.0,
+   "max": 9100.0,
+   "spread": 9090.0,
+   "netSpread": 4822.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 3129.6
+  },
+  {
+   "date": "2026-06-05",
+   "min": 10.0,
+   "max": 10000.0,
+   "spread": 9990.0,
+   "netSpread": 5587.0,
+   "minHour": 11,
+   "maxHour": 23,
+   "avg": 3372.1
+  },
+  {
+   "date": "2026-06-06",
+   "min": 980.0,
+   "max": 13000.0,
+   "spread": 12020.0,
+   "netSpread": 7167.0,
+   "minHour": 16,
+   "maxHour": 1,
+   "avg": 4845.8
+  },
+  {
+   "date": "2026-06-07",
+   "min": 115.0,
+   "max": 14894.23,
+   "spread": 14779.2,
+   "netSpread": 9642.1,
+   "minHour": 16,
+   "maxHour": 1,
+   "avg": 4525.2
+  },
+  {
+   "date": "2026-06-08",
+   "min": 1632.0,
+   "max": 13799.0,
+   "spread": 12167.0,
+   "netSpread": 7194.1,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5789.6
+  },
+  {
+   "date": "2026-06-09",
+   "min": 1298.0,
+   "max": 9931.69,
+   "spread": 8633.7,
+   "netSpread": 4240.9,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5444.5
+  },
+  {
+   "date": "2026-06-10",
+   "min": 772.0,
+   "max": 12501.0,
+   "spread": 11729.0,
+   "netSpread": 6950.9,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5165.7
+  },
+  {
+   "date": "2026-06-11",
+   "min": 649.0,
+   "max": 14976.73,
+   "spread": 14327.7,
+   "netSpread": 9178.2,
+   "minHour": 12,
+   "maxHour": 1,
+   "avg": 5693.6
+  },
+  {
+   "date": "2026-06-12",
+   "min": 3422.0,
+   "max": 14969.1,
+   "spread": 11547.1,
+   "netSpread": 6398.7,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 6500.8
+  },
+  {
+   "date": "2026-06-13",
+   "min": 11.0,
+   "max": 7999.0,
+   "spread": 7988.0,
+   "netSpread": 3885.1,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 3771.8
+  },
+  {
+   "date": "2026-06-14",
+   "min": 10.0,
+   "max": 8000.0,
+   "spread": 7990.0,
+   "netSpread": 3887.0,
+   "minHour": 10,
+   "maxHour": 1,
+   "avg": 3183.0
+  },
+  {
+   "date": "2026-06-15",
+   "min": 300.0,
+   "max": 14977.36,
+   "spread": 14677.4,
+   "netSpread": 9527.8,
+   "minHour": 13,
+   "maxHour": 23,
+   "avg": 6005.1
+  },
+  {
+   "date": "2026-06-16",
+   "min": 711.0,
+   "max": 15000.0,
+   "spread": 14289.0,
+   "netSpread": 9136.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 7210.8
+  },
+  {
+   "date": "2026-06-17",
+   "min": 500.0,
+   "max": 15000.0,
+   "spread": 14500.0,
+   "netSpread": 9347.0,
+   "minHour": 12,
+   "maxHour": 23,
+   "avg": 7866.1
+  },
+  {
+   "date": "2026-06-18",
+   "min": 289.0,
+   "max": 13206.0,
+   "spread": 12917.0,
+   "netSpread": 8033.1,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 6394.2
+  },
+  {
+   "date": "2026-06-19",
+   "min": 288.0,
+   "max": 14968.3,
+   "spread": 14680.3,
+   "netSpread": 9532.1,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 5930.6
+  },
+  {
+   "date": "2026-06-20",
+   "min": 80.0,
+   "max": 14974.71,
+   "spread": 14894.7,
+   "netSpread": 9745.5,
+   "minHour": 15,
+   "maxHour": 20,
+   "avg": 5413.5
+  },
+  {
+   "date": "2026-06-21",
+   "min": 10.0,
+   "max": 13500.0,
+   "spread": 13490.0,
+   "netSpread": 8562.0,
+   "minHour": 10,
+   "maxHour": 20,
+   "avg": 4799.6
+  },
+  {
+   "date": "2026-06-22",
+   "min": 187.0,
+   "max": 12375.0,
+   "spread": 12188.0,
+   "netSpread": 7428.8,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5061.5
+  },
+  {
+   "date": "2026-06-23",
+   "min": 1700.0,
+   "max": 14976.59,
+   "spread": 13276.6,
+   "netSpread": 8127.1,
+   "minHour": 12,
+   "maxHour": 23,
+   "avg": 7237.7
+  },
+  {
+   "date": "2026-06-24",
+   "min": 1890.0,
+   "max": 15000.0,
+   "spread": 13110.0,
+   "netSpread": 7957.0,
+   "minHour": 12,
+   "maxHour": 1,
+   "avg": 8631.7
+  },
+  {
+   "date": "2026-06-25",
+   "min": 938.0,
+   "max": 14500.0,
+   "spread": 13562.0,
+   "netSpread": 8484.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 6233.7
+  },
+  {
+   "date": "2026-06-26",
+   "min": 788.0,
+   "max": 14977.81,
+   "spread": 14189.8,
+   "netSpread": 9040.1,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 6565.3
+  },
+  {
+   "date": "2026-06-27",
+   "min": 10.0,
+   "max": 14973.57,
+   "spread": 14963.6,
+   "netSpread": 9814.5,
+   "minHour": 11,
+   "maxHour": 1,
+   "avg": 5754.1
+  },
+  {
+   "date": "2026-06-28",
+   "min": 10.0,
+   "max": 14976.76,
+   "spread": 14966.8,
+   "netSpread": 9817.2,
+   "minHour": 10,
+   "maxHour": 1,
+   "avg": 5076.1
+  },
+  {
+   "date": "2026-06-29",
+   "min": 250.0,
+   "max": 15000.0,
+   "spread": 14750.0,
+   "netSpread": 9597.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 6858.5
+  },
+  {
+   "date": "2026-06-30",
+   "min": 1000.01,
+   "max": 14979.62,
+   "spread": 13979.6,
+   "netSpread": 8829.7,
+   "minHour": 13,
+   "maxHour": 1,
+   "avg": 7374.8
+  },
+  {
+   "date": "2026-07-01",
+   "min": 1478.0,
+   "max": 14999.0,
+   "spread": 13521.0,
+   "netSpread": 8368.1,
+   "minHour": 13,
+   "maxHour": 23,
+   "avg": 7730.8
+  },
+  {
+   "date": "2026-07-02",
+   "min": 1650.0,
+   "max": 15000.0,
+   "spread": 13350.0,
+   "netSpread": 8197.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 7981.2
+  },
+  {
+   "date": "2026-07-03",
+   "min": 2200.0,
+   "max": 13900.0,
+   "spread": 11700.0,
+   "netSpread": 6712.0,
+   "minHour": 14,
+   "maxHour": 19,
+   "avg": 6551.9
+  },
+  {
+   "date": "2026-07-04",
+   "min": 10.0,
+   "max": 7723.0,
+   "spread": 7713.0,
+   "netSpread": 3651.6,
+   "minHour": 11,
+   "maxHour": 23,
+   "avg": 3034.3
+  },
+  {
+   "date": "2026-07-05",
+   "min": 10.0,
+   "max": 8305.0,
+   "spread": 8295.0,
+   "netSpread": 4146.2,
+   "minHour": 10,
+   "maxHour": 23,
+   "avg": 3416.3
+  },
+  {
+   "date": "2026-07-06",
+   "min": 380.0,
+   "max": 12444.0,
+   "spread": 12064.0,
+   "netSpread": 7294.4,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 5359.7
+  },
+  {
+   "date": "2026-07-07",
+   "min": 1450.0,
+   "max": 10999.0,
+   "spread": 9549.0,
+   "netSpread": 4996.1,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 5729.9
+  },
+  {
+   "date": "2026-07-08",
+   "min": 1175.0,
+   "max": 8840.0,
+   "spread": 7665.0,
+   "netSpread": 3436.0,
+   "minHour": 15,
+   "maxHour": 23,
+   "avg": 5331.1
+  },
+  {
+   "date": "2026-07-09",
+   "min": 1999.0,
+   "max": 10211.0,
+   "spread": 8212.0,
+   "netSpread": 3777.4,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 5587.9
+  },
+  {
+   "date": "2026-07-10",
+   "min": 2357.51,
+   "max": 14973.44,
+   "spread": 12615.9,
+   "netSpread": 7466.9,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 6617.4
+  },
+  {
+   "date": "2026-07-11",
+   "min": 10.0,
+   "max": 6300.0,
+   "spread": 6290.0,
+   "netSpread": 2442.0,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 1914.6
+  },
+  {
+   "date": "2026-07-12",
+   "min": 10.0,
+   "max": 6300.0,
+   "spread": 6290.0,
+   "netSpread": 2442.0,
+   "minHour": 10,
+   "maxHour": 21,
+   "avg": 2119.0
+  },
+  {
+   "date": "2026-07-13",
+   "min": 660.0,
+   "max": 7299.0,
+   "spread": 6639.0,
+   "netSpread": 2641.1,
+   "minHour": 12,
+   "maxHour": 23,
+   "avg": 3189.5
+  },
+  {
+   "date": "2026-07-14",
+   "min": 500.0,
+   "max": 8499.0,
+   "spread": 7999.0,
+   "netSpread": 3821.1,
+   "minHour": 5,
+   "maxHour": 23,
+   "avg": 3562.5
+  },
+  {
+   "date": "2026-07-15",
+   "min": 440.0,
+   "max": 10392.0,
+   "spread": 9952.0,
+   "netSpread": 5490.2,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 4009.1
+  },
+  {
+   "date": "2026-07-16",
+   "min": 10.0,
+   "max": 11190.0,
+   "spread": 11180.0,
+   "netSpread": 6598.5,
+   "minHour": 11,
+   "maxHour": 23,
+   "avg": 3364.1
+  },
+  {
+   "date": "2026-07-17",
+   "min": 410.0,
+   "max": 11000.0,
+   "spread": 10590.0,
+   "netSpread": 6037.0,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4379.8
+  },
+  {
+   "date": "2026-07-18",
+   "min": 10.0,
+   "max": 9444.0,
+   "spread": 9434.0,
+   "netSpread": 5114.4,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 3078.1
+  },
+  {
+   "date": "2026-07-19",
+   "min": 11.0,
+   "max": 7825.0,
+   "spread": 7814.0,
+   "netSpread": 3737.2,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 3794.0
+  },
+  {
+   "date": "2026-07-20",
+   "min": 501.0,
+   "max": 10000.0,
+   "spread": 9499.0,
+   "netSpread": 5096.0,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 4286.2
+  },
+  {
+   "date": "2026-07-21",
+   "min": 929.0,
+   "max": 10000.0,
+   "spread": 9071.0,
+   "netSpread": 4668.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 4665.2
+  },
+  {
+   "date": "2026-07-22",
+   "min": 1000.0,
+   "max": 9207.0,
+   "spread": 8207.0,
+   "netSpread": 3922.9,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4503.2
+  },
+  {
+   "date": "2026-07-23",
+   "min": 975.0,
+   "max": 9899.0,
+   "spread": 8924.0,
+   "netSpread": 4536.1,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 4997.4
+  },
+  {
+   "date": "2026-07-24",
+   "min": 1333.0,
+   "max": 10000.0,
+   "spread": 8667.0,
+   "netSpread": 4264.0,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 5316.8
+  },
+  {
+   "date": "2026-07-25",
+   "min": 10.0,
+   "max": 6707.0,
+   "spread": 6697.0,
+   "netSpread": 2787.9,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 2719.6
+  },
+  {
+   "date": "2026-07-26",
+   "min": 10.0,
+   "max": 6800.0,
+   "spread": 6790.0,
+   "netSpread": 2867.0,
+   "minHour": 10,
+   "maxHour": 22,
+   "avg": 2607.0
+  },
+  {
+   "date": "2026-07-27",
+   "min": 10.0,
+   "max": 7400.0,
+   "spread": 7390.0,
+   "netSpread": 3377.0,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 2364.9
+  },
+  {
+   "date": "2026-07-28",
+   "min": 100.0,
+   "max": 9000.0,
+   "spread": 8900.0,
+   "netSpread": 4647.0,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 3548.6
+  },
+  {
+   "date": "2026-07-29",
+   "min": 143.0,
+   "max": 12366.0,
+   "spread": 12223.0,
+   "netSpread": 7465.1,
+   "minHour": 16,
+   "maxHour": 22,
+   "avg": 4504.7
+  },
+  {
+   "date": "2026-07-30",
+   "min": 350.01,
+   "max": 13711.0,
+   "spread": 13361.0,
+   "netSpread": 8401.3,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5725.5
+  },
+  {
+   "date": "2026-07-31",
+   "min": 850.0,
+   "max": 12500.0,
+   "spread": 11650.0,
+   "netSpread": 6872.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 5769.9
+  },
+  {
+   "date": "2026-08-01",
+   "min": 15.0,
+   "max": 14975.19,
+   "spread": 14960.2,
+   "netSpread": 9810.9,
+   "minHour": 12,
+   "maxHour": 1,
+   "avg": 5601.2
+  },
+  {
+   "date": "2026-08-02",
+   "min": 10.0,
+   "max": 14975.76,
+   "spread": 14965.8,
+   "netSpread": 9816.4,
+   "minHour": 11,
+   "maxHour": 1,
+   "avg": 5465.0
+  },
+  {
+   "date": "2026-08-03",
+   "min": 1499.0,
+   "max": 15000.0,
+   "spread": 13501.0,
+   "netSpread": 8348.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 8359.1
+  },
+  {
+   "date": "2026-08-04",
+   "min": 3080.0,
+   "max": 15000.0,
+   "spread": 11920.0,
+   "netSpread": 6767.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 9069.4
+  },
+  {
+   "date": "2026-08-05",
+   "min": 3079.0,
+   "max": 15000.0,
+   "spread": 11921.0,
+   "netSpread": 6768.0,
+   "minHour": 14,
+   "maxHour": 20,
+   "avg": 8464.8
+  },
+  {
+   "date": "2026-08-06",
+   "min": 3650.0,
+   "max": 15000.0,
+   "spread": 11350.0,
+   "netSpread": 6197.0,
+   "minHour": 14,
+   "maxHour": 21,
+   "avg": 9671.7
+  },
+  {
+   "date": "2026-08-07",
+   "min": 4330.0,
+   "max": 12303.0,
+   "spread": 7973.0,
+   "netSpread": 3224.5,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 8018.9
+  },
+  {
+   "date": "2026-08-08",
+   "min": 1340.0,
+   "max": 10377.0,
+   "spread": 9037.0,
+   "netSpread": 4577.4,
+   "minHour": 15,
+   "maxHour": 22,
+   "avg": 6709.0
+  },
+  {
+   "date": "2026-08-09",
+   "min": 43.0,
+   "max": 10300.0,
+   "spread": 10257.0,
+   "netSpread": 5809.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5037.7
+  },
+  {
+   "date": "2026-08-10",
+   "min": 2450.0,
+   "max": 14971.4,
+   "spread": 12521.4,
+   "netSpread": 7372.7,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 7375.4
+  },
+  {
+   "date": "2026-08-11",
+   "min": 2369.0,
+   "max": 14978.91,
+   "spread": 12609.9,
+   "netSpread": 7460.1,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 7976.0
+  },
+  {
+   "date": "2026-08-12",
+   "min": 487.0,
+   "max": 10800.0,
+   "spread": 10313.0,
+   "netSpread": 5790.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 5531.2
+  },
+  {
+   "date": "2026-08-13",
+   "min": 486.0,
+   "max": 12307.1,
+   "spread": 11821.1,
+   "netSpread": 7072.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 6303.2
+  },
+  {
+   "date": "2026-08-14",
+   "min": 2888.0,
+   "max": 14973.65,
+   "spread": 12085.6,
+   "netSpread": 6936.6,
+   "minHour": 11,
+   "maxHour": 1,
+   "avg": 8443.1
+  },
+  {
+   "date": "2026-08-15",
+   "min": 249.0,
+   "max": 14975.29,
+   "spread": 14726.3,
+   "netSpread": 9577.0,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 6140.8
+  },
+  {
+   "date": "2026-08-16",
+   "min": 10.0,
+   "max": 11231.0,
+   "spread": 11221.0,
+   "netSpread": 6633.4,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 5404.3
+  },
+  {
+   "date": "2026-08-17",
+   "min": 2007.0,
+   "max": 14971.1,
+   "spread": 12964.1,
+   "netSpread": 7815.4,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 8562.0
+  },
+  {
+   "date": "2026-08-18",
+   "min": 4599.0,
+   "max": 12200.0,
+   "spread": 7601.0,
+   "netSpread": 2868.0,
+   "minHour": 13,
+   "maxHour": 22,
+   "avg": 7688.5
+  },
+  {
+   "date": "2026-08-19",
+   "min": 5938.0,
+   "max": 12800.0,
+   "spread": 6862.0,
+   "netSpread": 2039.0,
+   "minHour": 16,
+   "maxHour": 21,
+   "avg": 8738.6
+  },
+  {
+   "date": "2026-08-20",
+   "min": 1285.9,
+   "max": 14974.93,
+   "spread": 13689.0,
+   "netSpread": 8539.8,
+   "minHour": 16,
+   "maxHour": 1,
+   "avg": 6985.1
+  },
+  {
+   "date": "2026-08-21",
+   "min": 100.0,
+   "max": 12266.0,
+   "spread": 12166.0,
+   "netSpread": 7423.1,
+   "minHour": 3,
+   "maxHour": 21,
+   "avg": 4931.5
+  },
+  {
+   "date": "2026-08-22",
+   "min": 10.0,
+   "max": 10942.0,
+   "spread": 10932.0,
+   "netSpread": 6387.7,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 4699.3
+  },
+  {
+   "date": "2026-08-23",
+   "min": 10.0,
+   "max": 7700.0,
+   "spread": 7690.0,
+   "netSpread": 3632.0,
+   "minHour": 10,
+   "maxHour": 22,
+   "avg": 2635.7
+  },
+  {
+   "date": "2026-08-24",
+   "min": 10.0,
+   "max": 11370.0,
+   "spread": 11360.0,
+   "netSpread": 6751.5,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 3680.8
+  },
+  {
+   "date": "2026-08-25",
+   "min": 10.0,
+   "max": 8000.0,
+   "spread": 7990.0,
+   "netSpread": 3887.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 2872.4
+  },
+  {
+   "date": "2026-08-26",
+   "min": 100.0,
+   "max": 7813.0,
+   "spread": 7713.0,
+   "netSpread": 3638.1,
+   "minHour": 3,
+   "maxHour": 20,
+   "avg": 3659.1
+  },
+  {
+   "date": "2026-08-27",
+   "min": 10.0,
+   "max": 8000.0,
+   "spread": 7990.0,
+   "netSpread": 3887.0,
+   "minHour": 3,
+   "maxHour": 20,
+   "avg": 3020.2
+  },
+  {
+   "date": "2026-08-28",
+   "min": 10.0,
+   "max": 7500.0,
+   "spread": 7490.0,
+   "netSpread": 3462.0,
+   "minHour": 3,
+   "maxHour": 20,
+   "avg": 1886.6
+  },
+  {
+   "date": "2026-08-29",
+   "min": 10.0,
+   "max": 8500.0,
+   "spread": 8490.0,
+   "netSpread": 4312.0,
+   "minHour": 10,
+   "maxHour": 20,
+   "avg": 2304.6
+  },
+  {
+   "date": "2026-08-30",
+   "min": 10.0,
+   "max": 10274.0,
+   "spread": 10264.0,
+   "netSpread": 5819.9,
+   "minHour": 10,
+   "maxHour": 20,
+   "avg": 3862.5
+  },
+  {
+   "date": "2026-08-31",
+   "min": 10.0,
+   "max": 12464.0,
+   "spread": 12454.0,
+   "netSpread": 7681.4,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 3593.0
+  },
+  {
+   "date": "2026-09-01",
+   "min": 10.0,
+   "max": 12888.0,
+   "spread": 12878.0,
+   "netSpread": 8041.8,
+   "minHour": 11,
+   "maxHour": 22,
+   "avg": 5417.8
+  },
+  {
+   "date": "2026-09-02",
+   "min": 10.0,
+   "max": 12721.0,
+   "spread": 12711.0,
+   "netSpread": 7899.9,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 5147.9
+  },
+  {
+   "date": "2026-09-03",
+   "min": 1155.0,
+   "max": 14975.73,
+   "spread": 13820.7,
+   "netSpread": 8671.4,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 8624.0
+  },
+  {
+   "date": "2026-09-04",
+   "min": 500.0,
+   "max": 9000.0,
+   "spread": 8500.0,
+   "netSpread": 4247.0,
+   "minHour": 13,
+   "maxHour": 8,
+   "avg": 4929.0
+  },
+  {
+   "date": "2026-09-05",
+   "min": 10.0,
+   "max": 8000.0,
+   "spread": 7990.0,
+   "netSpread": 3887.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 3185.3
+  },
+  {
+   "date": "2026-09-06",
+   "min": 10.0,
+   "max": 10830.0,
+   "spread": 10820.0,
+   "netSpread": 6292.5,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 3536.1
+  },
+  {
+   "date": "2026-09-07",
+   "min": 10.0,
+   "max": 15000.0,
+   "spread": 14990.0,
+   "netSpread": 9837.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 5782.7
+  },
+  {
+   "date": "2026-09-08",
+   "min": 10.0,
+   "max": 15000.0,
+   "spread": 14990.0,
+   "netSpread": 9837.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 6911.6
+  },
+  {
+   "date": "2026-09-09",
+   "min": 10.0,
+   "max": 14999.0,
+   "spread": 14989.0,
+   "netSpread": 9836.1,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 7054.9
+  },
+  {
+   "date": "2026-09-10",
+   "min": 10.0,
+   "max": 14976.48,
+   "spread": 14966.5,
+   "netSpread": 9817.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 6900.1
+  },
+  {
+   "date": "2026-09-11",
+   "min": 80.0,
+   "max": 14974.38,
+   "spread": 14894.4,
+   "netSpread": 9745.2,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 6484.4
+  },
+  {
+   "date": "2026-09-12",
+   "min": 301.0,
+   "max": 11307.0,
+   "spread": 11006.0,
+   "netSpread": 6406.9,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 5595.5
+  },
+  {
+   "date": "2026-09-13",
+   "min": 670.0,
+   "max": 14952.3,
+   "spread": 14282.3,
+   "netSpread": 9136.5,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 6625.9
+  },
+  {
+   "date": "2026-09-14",
+   "min": 878.0,
+   "max": 12424.0,
+   "spread": 11546.0,
+   "netSpread": 6779.4,
+   "minHour": 15,
+   "maxHour": 21,
+   "avg": 5450.6
+  },
+  {
+   "date": "2026-09-15",
+   "min": 10.0,
+   "max": 14000.0,
+   "spread": 13990.0,
+   "netSpread": 8987.0,
+   "minHour": 12,
+   "maxHour": 22,
+   "avg": 5507.6
+  },
+  {
+   "date": "2026-09-16",
+   "min": 10.0,
+   "max": 14952.1,
+   "spread": 14942.1,
+   "netSpread": 9796.3,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 5965.5
+  },
+  {
+   "date": "2026-09-17",
+   "min": 10.0,
+   "max": 14978.01,
+   "spread": 14968.0,
+   "netSpread": 9818.3,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 6314.0
+  },
+  {
+   "date": "2026-09-18",
+   "min": 10.0,
+   "max": 14094.0,
+   "spread": 14084.0,
+   "netSpread": 9066.9,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 7008.5
+  },
+  {
+   "date": "2026-09-19",
+   "min": 10.0,
+   "max": 14970.4,
+   "spread": 14960.4,
+   "netSpread": 9811.8,
+   "minHour": 12,
+   "maxHour": 1,
+   "avg": 6061.4
+  },
+  {
+   "date": "2026-09-20",
+   "min": 10.0,
+   "max": 14949.1,
+   "spread": 14939.1,
+   "netSpread": 9793.7,
+   "minHour": 11,
+   "maxHour": 1,
+   "avg": 4741.9
+  },
+  {
+   "date": "2026-09-21",
+   "min": 301.0,
+   "max": 14959.0,
+   "spread": 14658.0,
+   "netSpread": 9511.1,
+   "minHour": 15,
+   "maxHour": 20,
+   "avg": 6638.2
+  },
+  {
+   "date": "2026-09-22",
+   "min": 298.0,
+   "max": 14977.84,
+   "spread": 14679.8,
+   "netSpread": 9530.2,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 7355.6
+  },
+  {
+   "date": "2026-09-23",
+   "min": 2000.0,
+   "max": 13500.0,
+   "spread": 11500.0,
+   "netSpread": 6572.0,
+   "minHour": 14,
+   "maxHour": 20,
+   "avg": 7422.6
+  },
+  {
+   "date": "2026-09-24",
+   "min": 434.0,
+   "max": 14970.8,
+   "spread": 14536.8,
+   "netSpread": 9388.2,
+   "minHour": 15,
+   "maxHour": 20,
+   "avg": 7060.9
+  },
+  {
+   "date": "2026-09-25",
+   "min": 990.0,
+   "max": 14967.2,
+   "spread": 13977.2,
+   "netSpread": 8829.1,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 8291.6
+  },
+  {
+   "date": "2026-09-26",
+   "min": 15.0,
+   "max": 14968.9,
+   "spread": 14953.9,
+   "netSpread": 9805.6,
+   "minHour": 15,
+   "maxHour": 1,
+   "avg": 6301.4
+  },
+  {
+   "date": "2026-09-27",
+   "min": 10.0,
+   "max": 11666.0,
+   "spread": 11656.0,
+   "netSpread": 7003.1,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 3674.7
+  },
+  {
+   "date": "2026-09-28",
+   "min": 10.0,
+   "max": 12500.0,
+   "spread": 12490.0,
+   "netSpread": 7712.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 4547.1
+  },
+  {
+   "date": "2026-09-29",
+   "min": 10.0,
+   "max": 14930.0,
+   "spread": 14920.0,
+   "netSpread": 9777.5,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 5597.2
+  },
+  {
+   "date": "2026-09-30",
+   "min": 10.0,
+   "max": 12830.0,
+   "spread": 12820.0,
+   "netSpread": 7992.5,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 5514.1
+  },
+  {
+   "date": "2026-10-01",
+   "min": 10.0,
+   "max": 9458.0,
+   "spread": 9448.0,
+   "netSpread": 5126.3,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 3936.5
+  },
+  {
+   "date": "2026-10-02",
+   "min": 10.0,
+   "max": 12540.1,
+   "spread": 12530.1,
+   "netSpread": 7746.1,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 4670.3
+  },
+  {
+   "date": "2026-10-03",
+   "min": 10.0,
+   "max": 11539.0,
+   "spread": 11529.0,
+   "netSpread": 6895.1,
+   "minHour": 11,
+   "maxHour": 21,
+   "avg": 4292.1
+  },
+  {
+   "date": "2026-10-04",
+   "min": 10.0,
+   "max": 8500.0,
+   "spread": 8490.0,
+   "netSpread": 4312.0,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 2702.5
+  },
+  {
+   "date": "2026-10-05",
+   "min": 10.0,
+   "max": 11042.8,
+   "spread": 11032.8,
+   "netSpread": 6473.4,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 3902.2
+  },
+  {
+   "date": "2026-10-06",
+   "min": 10.0,
+   "max": 13500.0,
+   "spread": 13490.0,
+   "netSpread": 8562.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 5323.6
+  },
+  {
+   "date": "2026-10-07",
+   "min": 10.0,
+   "max": 12500.0,
+   "spread": 12490.0,
+   "netSpread": 7712.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 5255.6
+  },
+  {
+   "date": "2026-10-08",
+   "min": 10.0,
+   "max": 11500.0,
+   "spread": 11490.0,
+   "netSpread": 6862.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4677.2
+  },
+  {
+   "date": "2026-10-09",
+   "min": 10.0,
+   "max": 8000.0,
+   "spread": 7990.0,
+   "netSpread": 3887.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 2987.3
+  },
+  {
+   "date": "2026-10-10",
+   "min": 10.0,
+   "max": 11500.0,
+   "spread": 11490.0,
+   "netSpread": 6862.0,
+   "minHour": 12,
+   "maxHour": 20,
+   "avg": 4226.3
+  },
+  {
+   "date": "2026-10-11",
+   "min": 10.0,
+   "max": 11500.0,
+   "spread": 11490.0,
+   "netSpread": 6862.0,
+   "minHour": 11,
+   "maxHour": 20,
+   "avg": 4603.8
+  },
+  {
+   "date": "2026-10-12",
+   "min": 10.0,
+   "max": 14614.7,
+   "spread": 14604.7,
+   "netSpread": 9509.5,
+   "minHour": 13,
+   "maxHour": 9,
+   "avg": 6382.8
+  }
+ ]
+}

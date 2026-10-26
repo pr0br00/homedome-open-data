@@ -1,0 +1,18 @@
+{
+  "title": "HOMEDOME Open Energy Data (Ukraine): day-ahead market spread index, distribution tariffs by region, solar generation",
+  "upload_type": "dataset",
+  "description": "<p>Open data behind HOMEDOME's solar and battery payback calculations for Ukraine, mirrored weekly from homedome.com.ua.</p><ul><li><b>Day-ahead market (DAM) spread index</b>: daily max − min hourly price and net spread after transmission and distribution tariffs and 15% round-trip losses, since 2025-01-01; derived from hourly results published by Market Operator JSC (oree.com.ua).</li><li><b>Distribution tariffs</b> of 22 Ukrainian DSOs (voltage classes 1 and 2) and the transmission tariff, UAH/MWh, with NEURC resolution numbers.</li><li><b>BESS arbitrage model by region</b> (model output, not measurements): net spread, cycles per year, revenue and payback of a 125 kW / 261 kWh cabinet.</li><li><b>Solar generation</b>: measured monthly output of a 10 kW station in Dnipro region and an estimated specific yield by city (kWh/kWp/year).</li></ul><p>Відкриті дані HOMEDOME про енергетику України: індекс спредів РДН, тарифи на розподіл за регіонами, модель арбітражу накопичувачів, генерація сонячних станцій.</p>",
+  "creators": [
+    { "name": "HOMEDOME" },
+    { "name": "Vozhzhov, Yuriy", "affiliation": "HOMEDOME" }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "ukr",
+  "keywords": ["Ukraine", "electricity market", "day-ahead market", "price spread", "battery energy storage", "energy arbitrage", "distribution tariffs", "solar PV generation", "Україна", "РДН", "арбітраж електроенергії"],
+  "related_identifiers": [
+    { "identifier": "https://homedome.com.ua/indeks-spredu-rdn", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://homedome.com.ua/karta-arbitrazhu", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://homedome.com.ua/statystyka", "relation": "isSupplementTo", "scheme": "url" }
+  ]
+}
