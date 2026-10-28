@@ -17,17 +17,17 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "coverage": {
    "from": "2025-01-01",
-   "to": "2026-10-12",
-   "days": 650
+   "to": "2026-10-26",
+   "days": 664
   }
  },
  "summary": {
-  "avgSpread": 9833,
-  "medianSpread": 9236,
+  "avgSpread": 9802,
+  "medianSpread": 9200,
   "maxSpread": 14990,
   "maxSpreadDate": "2026-04-27",
-  "avgNetSpread": 5211,
-  "profitableDays": 645,
+  "avgNetSpread": 5187,
+  "profitableDays": 659,
   "profitableShare": 99,
   "cheapestPrice": 10.0,
   "cheapestDate": "2025-09-06"
@@ -62,12 +62,12 @@
   },
   {
    "season": "Осінь",
-   "days": 133,
+   "days": 147,
    "typicalMinHour": 4,
    "typicalMaxHour": 21,
-   "avgSpread": 12052,
-   "avgMin": 788,
-   "avgMax": 12841
+   "avgSpread": 11704,
+   "avgMin": 817,
+   "avgMax": 12520
   }
  ],
  "monthly": [
@@ -389,16 +389,16 @@
   {
    "month": "2026-10",
    "monthName": "Жовтень",
-   "days": 12,
-   "avgSpread": 11340,
-   "medianSpread": 11490,
+   "days": 26,
+   "avgSpread": 9752,
+   "medianSpread": 9825,
    "maxSpread": 14605,
-   "minSpread": 7990,
-   "avgNetSpread": 6734,
+   "minSpread": 5610,
+   "avgNetSpread": 5298,
    "typicalMinHour": 11,
    "medianMinHour": 12,
    "medianMaxHour": 20,
-   "profitableDays": 12,
+   "profitableDays": 26,
    "profitableShare": 100
   }
  ],
@@ -409,7 +409,7 @@
   },
   {
    "hour": 2,
-   "days": 4
+   "days": 5
   },
   {
    "hour": 3,
@@ -417,15 +417,15 @@
   },
   {
    "hour": 4,
-   "days": 106
+   "days": 108
   },
   {
    "hour": 5,
-   "days": 26
+   "days": 27
   },
   {
    "hour": 6,
-   "days": 6
+   "days": 8
   },
   {
    "hour": 7,
@@ -445,15 +445,15 @@
   },
   {
    "hour": 12,
-   "days": 95
+   "days": 97
   },
   {
    "hour": 13,
-   "days": 167
+   "days": 170
   },
   {
    "hour": 14,
-   "days": 44
+   "days": 47
   },
   {
    "hour": 15,
@@ -6972,6 +6972,146 @@
    "minHour": 13,
    "maxHour": 9,
    "avg": 6382.8
+  },
+  {
+   "date": "2026-10-13",
+   "min": 2458.0,
+   "max": 14000.0,
+   "spread": 11542.0,
+   "netSpread": 6539.0,
+   "minHour": 12,
+   "maxHour": 21,
+   "avg": 7897.9
+  },
+  {
+   "date": "2026-10-14",
+   "min": 1350.0,
+   "max": 11000.0,
+   "spread": 9650.0,
+   "netSpread": 5097.0,
+   "minHour": 14,
+   "maxHour": 20,
+   "avg": 5655.1
+  },
+  {
+   "date": "2026-10-15",
+   "min": 1340.0,
+   "max": 10000.0,
+   "spread": 8660.0,
+   "netSpread": 4257.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 4703.4
+  },
+  {
+   "date": "2026-10-16",
+   "min": 2700.0,
+   "max": 14000.0,
+   "spread": 11300.0,
+   "netSpread": 6297.0,
+   "minHour": 6,
+   "maxHour": 20,
+   "avg": 6569.5
+  },
+  {
+   "date": "2026-10-17",
+   "min": 3400.0,
+   "max": 12500.0,
+   "spread": 9100.0,
+   "netSpread": 4322.0,
+   "minHour": 6,
+   "maxHour": 20,
+   "avg": 6326.9
+  },
+  {
+   "date": "2026-10-18",
+   "min": 3000.0,
+   "max": 13000.0,
+   "spread": 10000.0,
+   "netSpread": 5147.0,
+   "minHour": 12,
+   "maxHour": 1,
+   "avg": 6173.8
+  },
+  {
+   "date": "2026-10-19",
+   "min": 648.0,
+   "max": 8000.0,
+   "spread": 7352.0,
+   "netSpread": 3249.0,
+   "minHour": 14,
+   "maxHour": 20,
+   "avg": 3157.5
+  },
+  {
+   "date": "2026-10-20",
+   "min": 80.0,
+   "max": 7000.0,
+   "spread": 6920.0,
+   "netSpread": 2967.0,
+   "minHour": 13,
+   "maxHour": 19,
+   "avg": 3256.5
+  },
+  {
+   "date": "2026-10-21",
+   "min": 24.0,
+   "max": 6300.0,
+   "spread": 6276.0,
+   "netSpread": 2428.0,
+   "minHour": 14,
+   "maxHour": 19,
+   "avg": 2928.0
+  },
+  {
+   "date": "2026-10-22",
+   "min": 100.0,
+   "max": 6000.0,
+   "spread": 5900.0,
+   "netSpread": 2097.0,
+   "minHour": 5,
+   "maxHour": 18,
+   "avg": 3293.4
+  },
+  {
+   "date": "2026-10-23",
+   "min": 100.0,
+   "max": 6300.0,
+   "spread": 6200.0,
+   "netSpread": 2352.0,
+   "minHour": 4,
+   "maxHour": 19,
+   "avg": 3131.0
+  },
+  {
+   "date": "2026-10-24",
+   "min": 10.0,
+   "max": 7000.0,
+   "spread": 6990.0,
+   "netSpread": 3037.0,
+   "minHour": 13,
+   "maxHour": 20,
+   "avg": 2635.2
+  },
+  {
+   "date": "2026-10-25",
+   "min": 10.0,
+   "max": 5620.0,
+   "spread": 5610.0,
+   "netSpread": 1864.0,
+   "minHour": 4,
+   "maxHour": 21,
+   "avg": 2219.2
+  },
+  {
+   "date": "2026-10-26",
+   "min": 10.0,
+   "max": 12000.0,
+   "spread": 11990.0,
+   "netSpread": 7287.0,
+   "minHour": 2,
+   "maxHour": 18,
+   "avg": 4695.0
   }
  ]
 }
